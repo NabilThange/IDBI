@@ -1,0 +1,18 @@
+{
+  "url": "https://www.idbi.bank.in/treasury-fra.aspx",
+  "title": "Personal & Corporate Banking | MSME & Agri banking - IDBI Bank",
+  "content": "FRA is a forward contract traded over-the-counter in which one party pays a fixed interest rate based on the bench-mark/reference rate, and receives a floating interest rate equal to a reference rate. The payer of the fixed interest rate is also known as the borrower or the buyer, whilst the receiver of the fixed interest rate is the lender or the seller. The payments are calculated over a notional amount over a certain period, and netted; i.e. only the differential is paid. It is paid on the effective date. The reference rate is fixed one or two days before the effective date, dependent on the market convention for the particular currency.",
+  "category": "corporate",
+  "page_type": "rates",
+  "cta_label": "Apply Now",
+  "cta_url": "https://www.idbi.bank.in/apply-now-corp.aspx",
+  "content_hash": "42b7cc2d5d66c7e0cf16793e6218a5f9c08dc3cf27acc02303362c82c7348421",
+  "crawled_at": "2026-07-10T12:45:23.637832Z",
+  "metadata": {
+    "description": "IDBI Bank offers a wide range of products from savings and current bank account to loans for retail and msme customers  or agri loans to farmers. Apply Now.",
+    "keywords": "Internet Banking, savings account, Debit Card, personal loans, home loans, loans, fixed deposits",
+    "word_count": 111,
+    "internal_links_count": 164,
+    "external_links_count": 17
+  }
+}

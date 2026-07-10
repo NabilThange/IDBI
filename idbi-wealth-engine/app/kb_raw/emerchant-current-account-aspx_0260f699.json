@@ -1,0 +1,18 @@
+{
+  "url": "https://www.idbi.bank.in/eMerchant-current-account.aspx",
+  "title": "Personal & Corporate Banking | MSME & Agri banking - IDBI Bank",
+  "content": "* Merchant can create a payment request by providing necessary information and addressing to customer email address or mobile number\n  * Post receipt of request, customer can view the invoice details which has been prepared by merchant and can click on the unique URL which contains the invoice / payment details for the payment initiation process\n  * Merchant can see the status i.e. payment made or not.\n\n\n  * Collect card based payments, without need for EDC Machine/ Website.\n\n\nCall on our Phone Banking numbers Toll Free - (24x7 service)",
+  "category": "corporate",
+  "page_type": "general",
+  "cta_label": "Apply Now",
+  "cta_url": "https://www.idbi.bank.in/apply-now.aspx",
+  "content_hash": "0260f6994a41c639c80003eb170a83b4b29877515207b993ed3d3016ff6e3ff3",
+  "crawled_at": "2026-07-10T12:40:47.433164Z",
+  "metadata": {
+    "description": "IDBI bank offers a eMerchant current account by keeping your requirements in mind and to provide better financial solutions through banking convenience. Read about the features of our eMerchant-current-account.",
+    "keywords": "Flexi Current Account",
+    "word_count": 89,
+    "internal_links_count": 208,
+    "external_links_count": 20
+  }
+}

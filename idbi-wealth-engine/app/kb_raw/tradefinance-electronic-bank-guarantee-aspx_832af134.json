@@ -1,0 +1,18 @@
+{
+  "url": "https://www.idbi.bank.in/tradefinance-electronic-bank-guarantee.aspx",
+  "title": "Personal & Corporate Banking | MSME & Agri banking - IDBI Bank",
+  "content": "IDBI Bank in partnership with National e-Governance Services Ltd (NeSL) provides facility of issuing Electronic Bank Guarantee (e-BG) for its Retail and Corporate Banking customers. e-BG is the digital process of issuing a guarantee to a lender. e-BG replaces paper based BG issuance process with digital process by issuing BG on the NeSL portal through an API-based digital workflow with e-stamping and e-signatures. With secured transmission and enhanced transparency, the initiative ensures instant delivery of BG to the beneficiary.\n  * Quick, digital and paperless service with Central repository of e-BG on DDE portal of NeSL.\n  * Eliminates physical issuance, stamping, signing and paper based record maintenance.\n  * API based secured transmission eliminating risk of frauds and tampering.\n  * No hassles of managing physical inventory of BGs by beneficiary.\n  * Instant alerts to Beneficiary and applicant on issuance or change of status of e-BG.\n  * Applicant and beneficiary can instantly view & download e-BG on the NeSL portal.\n\n\n  * Please contact your Relationship Manager to know more about the e-BG facility. \n\n\nThe enabling framework for issuance of electronic e-BG is governed by: \n  * Insolvency and Bankruptcy Code (2016), the Regulations and Guidelines thereunder\n  * Orders issued by various State governments enabling NeSL to facilitate the process of digital Banking\n  * Related article codes for digital stamping enabled by the states.\n\n\ne-BG issued through NeSL covers all lifecycle events of bank guarantee from issuance, amendment, invocation, cancellation, etc.\nNo. A paper BG will continue to remain so unless cancelled and reissued as e-BG\nCan e-BG process be used for amendment etc. of a paper BG?\nNo. e-BG process flow for amendment, invocations, etc. covers only such BGs which has been issued in electronic mode.\nCan paper based process be followed for amendment, invocation, etc. for an e-BG issued through NeSL?\nNo. Any amendment, invocation, etc. for an e-BG issued in electronic mode should be done only through NeSL platform electronically. \nCan e-BG be issued in states not supported in e-stamping currently?\nNo. For states where stamp paper is available in physical mode, BG will have to be continued to be issued in traditional paper mode outside NeSL system till such time that states transition to e-stamping.\nDoes the BG document in e-BG model necessitate adopting a standardised format?\nNo. NeSL e-BG does not impose any standardized format for the BG document. Beneficiaries and Banks can continue to use their own BG templates.\nCall on our Phone Banking numbers Toll Free - (24x7 service)",
+  "category": "corporate",
+  "page_type": "general",
+  "cta_label": "Apply Now",
+  "cta_url": "https://www.idbi.bank.in/apply-now-corp.aspx",
+  "content_hash": "832af1348745b03c9047194ef78a9c9db1951adacb6bec6aee2d1a85a07fc8cb",
+  "crawled_at": "2026-07-10T12:45:08.887208Z",
+  "metadata": {
+    "description": "IDBI Bank offers a wide range of products from savings and current bank account to loans for retail and msme customers  or agri loans to farmers. Apply Now.",
+    "keywords": "Internet Banking, savings account, Debit Card, personal loans, home loans, loans, fixed deposits",
+    "word_count": 411,
+    "internal_links_count": 164,
+    "external_links_count": 18
+  }
+}

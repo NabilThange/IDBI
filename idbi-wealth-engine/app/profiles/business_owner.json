@@ -1,0 +1,143 @@
+{
+  "profile_id": "vikram_003",
+  "name": "Vikram Reddy",
+  "age": 42,
+  "occupation": "Restaurant Owner",
+  "employment_type": "Self-Employed",
+  "city": "Hyderabad",
+  "language_preference": "Telugu",
+  "credit_bureau_data": {
+    "total_external_debt": 2800000,
+    "external_loan_count": 1,
+    "credit_score": 770,
+    "external_holdings": [
+      {"type": "Savings", "bank": "SBI Bank", "amount": 120000}
+    ]
+  },
+  "risk_profile": {
+    "risk_category": "Conservative",
+    "questionnaire_answers": {
+      "financial_goals": ["Child Education", "Business Expansion"],
+      "risk_reaction": "loss_aversion"
+    }
+  },
+  
+  "financial_summary": {
+    "monthly_income": 180000,
+    "monthly_expenses": 95000,
+    "monthly_savings": 85000,
+    "current_balance": 850000,
+    "emergency_fund": 1200000,
+    "total_investments": 3500000
+  },
+  
+  "expense_breakdown": {
+    "home_loan_emi": 35000,
+    "household": 20000,
+    "food": 12000,
+    "transportation": 8000,
+    "utilities": 5000,
+    "insurance": 8000,
+    "misc": 7000
+  },
+  
+  "current_investments": [
+    {
+      "type": "FD",
+      "name": "Fixed Deposit Portfolio",
+      "amount": 1500000,
+      "interest_rate": 7.5,
+      "maturity_date": "2028-06-30"
+    },
+    {
+      "type": "Real Estate",
+      "name": "Commercial Property",
+      "current_value": 1200000,
+      "invested_amount": 800000
+    },
+    {
+      "type": "SIP",
+      "name": "Balanced Mutual Fund",
+      "monthly_amount": 15000,
+      "current_value": 480000,
+      "started": "2020-01-01"
+    },
+    {
+      "type": "Gold",
+      "name": "Physical Gold",
+      "current_value": 320000,
+      "invested_amount": 280000
+    }
+  ],
+  
+  "loans": [
+    {
+      "type": "Home Loan",
+      "outstanding_amount": 2800000,
+      "emi": 35000,
+      "interest_rate": 8.5,
+      "tenure_remaining_months": 180
+    }
+  ],
+  
+  "goals": [
+    {
+      "goal_id": "goal_child_education",
+      "name": "Son's College Education",
+      "target_amount": 3000000,
+      "target_date": "2032-06-30",
+      "current_savings": 480000,
+      "monthly_contribution": 20000,
+      "priority": "high"
+    },
+    {
+      "goal_id": "goal_daughter_education",
+      "name": "Daughter's College Education",
+      "target_amount": 3000000,
+      "target_date": "2036-06-30",
+      "current_savings": 200000,
+      "monthly_contribution": 15000,
+      "priority": "high"
+    },
+    {
+      "goal_id": "goal_business_expansion",
+      "name": "Open Second Restaurant",
+      "target_amount": 5000000,
+      "target_date": "2028-12-31",
+      "current_savings": 850000,
+      "monthly_contribution": 30000,
+      "priority": "medium"
+    }
+  ],
+  
+  "transactions": [
+    {"date": "2026-06-30", "description": "Business Income Transfer", "amount": 180000, "category": "income", "type": "credit"},
+    {"date": "2026-06-28", "description": "Home Loan EMI", "amount": -35000, "category": "emi", "type": "debit"},
+    {"date": "2026-06-27", "description": "Life Insurance Premium", "amount": -8000, "category": "insurance", "type": "debit"},
+    {"date": "2026-06-25", "description": "Reliance Fresh", "amount": -5500, "category": "food", "type": "debit"},
+    {"date": "2026-06-24", "description": "Kids School Fees", "amount": -25000, "category": "education", "type": "debit"},
+    {"date": "2026-06-22", "description": "Petrol Pump", "amount": -4500, "category": "transportation", "type": "debit"},
+    {"date": "2026-06-20", "description": "Electricity Bill", "amount": -3200, "category": "utilities", "type": "debit"},
+    {"date": "2026-06-18", "description": "Medical Expenses", "amount": -2800, "category": "healthcare", "type": "debit"},
+    {"date": "2026-06-15", "description": "Restaurant Supplies", "amount": -18000, "category": "business", "type": "debit"},
+    {"date": "2026-06-12", "description": "SIP - Mutual Fund", "amount": -15000, "category": "investment", "type": "debit"},
+    {"date": "2026-06-10", "description": "DMart", "amount": -4800, "category": "household", "type": "debit"},
+    {"date": "2026-06-08", "description": "Car Maintenance", "amount": -6500, "category": "transportation", "type": "debit"},
+    {"date": "2026-06-05", "description": "Amazon", "amount": -3200, "category": "shopping", "type": "debit"},
+    {"date": "2026-06-03", "description": "Son's Education Fund", "amount": -20000, "category": "investment", "type": "debit"},
+    {"date": "2026-06-01", "description": "Daughter's Education Fund", "amount": -15000, "category": "investment", "type": "debit"}
+  ],
+  
+  "preferences": {
+    "preferred_language": "English",
+    "communication_mode": "Email",
+    "investment_horizon": "Long-term (10+ years)"
+  },
+  
+  "metadata": {
+    "profile_created": "2025-11-20",
+    "last_updated": "2026-06-30",
+    "kyc_status": "verified",
+    "customer_since": "2015-08-10"
+  }
+}

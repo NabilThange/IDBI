@@ -1,0 +1,82 @@
+# problem statement explained:
+<p>What is PS1 (Track 1 — Digital Wealth Management)</p>
+<p>Explained by Harikesan Jayakumar (GM, IDBI).</p>
+<p>Problem: Wealth management today is fragmented across multiple manual/semi-automated systems. IDBI serves very different customer segments (mass retail, HNI, NRI) and can&#39;t give any of them timely, personalized, data-driven advisory at scale.</p>
+
+<p>What they want, concretely:</p>
+<ol>
+<li>AI-based digital wealth management solution, integrated into the existing IDBI mobile app (phase 1 — not a standalone app).</li>
+<li>Hybrid model, not pure AI: AI handles first-level advisory; complex or regulated cases get escalated as leads to a relationship manager (RM).</li>
+<li>Multi-language support — explicitly called out because of IDBI&#39;s pan-India branch network and regional-language customer base. This is a hard requirement, not a nice-to-have.</li>
+<li>Suitability-based recommendations, driven by:
+• Goals (short-term vs long-term — house, retirement, etc.)
+• Disposable income / how much they can &quot;spare&quot;
+• Existing holdings — both within IDBI and at other institutions</li>
+</ol>
+
+<ol start="5">
+<li><p>Two product tiers with different AI authority levels:
+• Vanilla / lightly-regulated products: AI can suggest directly based on suitability metrics.
+• Regulated products needing certification — insurance (IRDA), mutual funds, NPS, RBI bonds — AI can only act as a lead generator; a certified RM must close the loop.</p>
+</li>
+<li><p>Market-linked products need proactive, frequent updates since markets move constantly — customers need timely, informative nudges around ups/downs.</p>
+</li>
+<li><p>Avatar clarification (important — this changes your Product Vision doc&#39;s phrasing): they explicitly said it does not need to be a fully voice-enabled, hyperrealistic 3D avatar. A mixed text + voice, emotionally-intelligent 2D/text conversational interface is sufficient. So your &quot;Avatar Based&quot; framing in the doc can be softened — a strong chat interface is genuinely enough.</p>
+</li>
+</ol>
+
+
+<p>Behavioral data they expect you to mine (from AMA, applies directly to PS1 too):</p>
+<p>• Transaction-level spending/income patterns (not just credits/debits — everything)
+• Retained income vs. discretionary vs. essential spend (need vs. want vs. luxury segmentation)
+• Geolocation embedded in transactions (helps infer genuine intent vs. &quot;just browsing&quot;)
+• Cross-account visibility via credit bureau data — if a customer has accounts elsewhere, that should factor into the full financial picture
+• General financial literacy layer for mass/low-income customers — simple goal + balance-based nudges</p>
+<p>Regulatory line (very useful, this is basically their compliance spec for you):</p>
+<p>• Insurance, Mutual Funds, NPS, RBI Bonds = certified-personnel-only businesses → AI = lead gen only, no autonomous advice-to-transaction conversion.
+• Everything else (vanilla, non-regulated) → AI can do suitability + need analysis and give advice directly, potentially straight to transaction.
+• Asset-class-level vs specific-scheme recommendations: they want specific-scheme-level recommendations, not just &quot;invest in equity mutual funds&quot; — segmented by customer category (salaried → SIP-leaning, HNI → higher risk tolerance, 50+ → conservative).</p>
+
+
+<p>Things the bank does NOT store and cannot infer reliably — you must ask for them:</p>
+<p>• Financial goals (&quot;I want to buy a house in 5 years,&quot; &quot;retirement at 55&quot;) — this is subjective and forward-looking. No transaction pattern reliably tells you this. You need an explicit onboarding/goal-setting flow — a short questionnaire the AI walks the customer through conversationally the first time they open the AI page. (&quot;What are you saving for?&quot; &quot;When do you need it by?&quot; &quot;How much can you set aside monthly?&quot;)
+• Risk appetite (declared) — you can infer a rough proxy from age + existing product mix (someone with only FDs at 45 is probably conservative), but real risk tolerance is usually captured via a short risk-profiling questionnaire (this is standard practice in wealth apps — 5-8 questions, SEBI-style risk assessment forms already exist as a template you can adapt).</p>
+
+<p>So the honest architecture is: AI Chat + inferred transaction data alone is not enough. You need a lightweight declarative-data layer (goals, risk questionnaire) that the customer fills once and updates periodically, which then combines with inferred transaction data. This is normal — every real wealth app (Groww, INDmoney, even Fi Money) does exactly this hybrid: ask a few questions + read transaction/holdings data.</p>
+<p>How suitability recommendation actually works (concretely)</p>
+<p>Break it into a formula, not magic:</p>
+<ol>
+<li><p>Disposable income = declared/inferred income – essential expenses (rent, EMIs, recurring bills — categorize transactions by MCC/merchant) – a safety buffer. This is computable from transaction history alone.</p>
+</li>
+<li><p>Goal fit = from the declarative goal-setting flow (amount needed, target date) → back-calculate required monthly SIP/investment using standard time-value-of-money math (not even AI — this is arithmetic, the LLM just explains it).</p>
+</li>
+<li><p>Risk profile = combination of (a) declared answers from a risk questionnaire, (b) age, (c) existing portfolio volatility if any.</p>
+</li>
+<li><p>Existing holdings = IDBI&#39;s own systems + credit bureau pull for other-bank holdings (per GM&#39;s comment in AMA).</p>
+</li>
+<li><p>Suitability engine takes all four and outputs a recommendation with a regulatory tier tag (see below) — this is the piece your current docs don&#39;t name explicitly, and it&#39;s the part that should be a distinct, visible component in your architecture, not folded silently into &quot;AI reasoning.&quot;</p>
+</li>
+</ol>
+
+<p>&quot;Two product tiers&quot; — simpler than it sounded</p>
+<p>Re-explaining plainly:</p>
+<p>• Tier A — non-advisory / vanilla products: savings accounts, FDs, RDs, basic loans. These aren&#39;t legally &quot;investment advice&quot; under SEBI/IRDA — so your AI can recommend these directly and even help the customer act on them, no human required.</p>
+<p>• Tier B — regulated advisory products: Mutual Funds (SEBI), Insurance (IRDA), NPS (PFRDA), RBI Bonds. Giving &quot;advice&quot; on these legally requires a certified advisor/RM. Your AI cannot close the loop here — it can only say &quot;based on your profile, X type of product looks like a fit&quot; and then generate a lead, handing off to a human RM who&#39;s certified to actually advise and transact.</p>
+
+
+<p>So practically: your recommendation engine&#39;s output needs a flag — advisory_tier: &quot;direct&quot; | &quot;lead_gen&quot; — and the frontend/UX branches on that flag: direct products get an &quot;Invest Now&quot; button, lead-gen products get a &quot;Talk to an Advisor&quot; button that books/notifies an RM.</p>
+
+<p>What the Data Mining Engine actually mines (this is the part the video gestured at and you can make concrete):</p>
+<p>• Spend clusters — categorize transactions into need/want/luxury, recurring vs. one-off (per what Sai Sir described in the AMA)
+• Life-event detection — a large lump-sum credit, a new loan, a salary jump → auto-flag as a trigger for re-engagement (&quot;Priya just got a raise — nudge her about increasing her SIP&quot;)
+• Peer cohorts — group customers by income/age/behavior band so &quot;customers like you&quot; benchmarking is possible, and so RMs/bank see segment-level patterns, not just individuals
+• Product affinity scoring — which existing customers look like good fits for which products, before they&#39;ve even asked (this is literally Track 2&#39;s &quot;Prospect Assist,&quot; but the same engine also powers PS1 recommendations — worth noting as a reusable core if you want to hedge across tracks, though rules say pick one track)
+• Geo/channel signals — where and how the customer transacts, feeding the &quot;genuine intent vs. browsing&quot; distinction the GM mentioned</p>
+
+<p>Demo narrative (this is what makes 3 screens feel like 1 story instead of 3 disconnected features):</p>
+<ol>
+<li>Customer (Rahul) opens the app → AI page shows a life-event was detected (salary credit) → recommends bumping his SIP → it&#39;s Tier B, so a lead is generated.</li>
+<li>Cut to RM Command Center → Rahul&#39;s lead appears at the top of the queue, full reasoning trail attached, RM approves and calls him.</li>
+<li>Cut to Bank Intelligence Dashboard → zoom out: &quot;23% of salaried customers in the 25-30 cohort got a raise this quarter; SIP-increase leads converted at 41%&quot; — the aggregate pattern the GM said would &quot;help us do our business.&quot;</li>
+</ol>
+

@@ -1,0 +1,64 @@
+# WOULD IDBI NEED TO UPDATE THEIR APP FOR THIS FEATURE ?
+
+<p>The short answer is:</p>
+<p>Yes, IDBI would need to update their app—but your job is to make that update as small as possible.</p>
+
+<p>How banking apps usually work</p>
+<p>A banking app has three layers:</p>
+<p>Mobile App (UI)
+    |
+    | API Calls
+    |
+Backend Services
+    |
+Banking Database</p>
+<p>Your AI doesn&#39;t replace the app.</p>
+<p>It becomes another backend service.</p>
+<p>IDBI App
+    |
+    | Bank APIs
+    |   | Account Data
+    |   | Transactions
+    |   | Balance
+    | AI APIs (Your System)
+    |   | Recommendations
+    |   | Insights
+    |   | Goal Planning
+    |   | Chat</p>
+
+# WHAT IS OUT MAIN PRODUCT ?
+<p>I wouldn&#39;t pitch it as &quot;a separate app.&quot; I&#39;d pitch it as:</p>
+<p>&quot;An AI Wealth Layer for the existing IDBI mobile application.&quot;</p>
+
+<p>Part 1 — AI Backend (Your Main Product)</p>
+<p>This is where the intelligence lives.</p>
+<p>AI Wealth Platform</p>
+<p>├── Recommendation Engine
+├── Spending Analyzer
+├── Goal Planner
+├── Risk Profiler
+├── Portfolio Optimizer
+├── Notification Engine
+├── LLM Chat Service
+└── REST APIs</p>
+<p>This is your actual product.</p>
+
+<p>How integration works</p>
+<p>Imagine the existing app already calls APIs like:</p>
+<p>GET /balance</p>
+<p>GET /transactions</p>
+<p>GET /accounts</p>
+<p>You simply add:</p>
+<p>GET /wealth-insights</p>
+<p>GET /recommendations</p>
+<p>GET /goal-plan</p>
+<p>POST /ask-ai</p>
+<p>GET /risk-profile</p>
+<p>The mobile team just displays whatever your APIs return.</p>
+
+<p>If I were presenting this to the judges, I&#39;d say:</p>
+<p>&quot;We are not proposing a replacement for IDBI&#39;s mobile application. We are proposing an AI Wealth Layer—a modular, API-first platform that seamlessly integrates into the existing app. Our solution delivers personalized insights, investment recommendations, financial planning, and conversational assistance through reusable services. IDBI can adopt individual modules with minimal UI changes while preserving their existing customer experience.&quot;</p>
+
+<p>Pitch this instead:</p>
+<p>&quot;An API-first AI Wealth Engine that integrates into the IDBI mobile application. It combines customer financial context, an IDBI product knowledge base (via RAG), and LLM reasoning to generate personalized wealth recommendations. The engine exposes modular APIs for insights, recommendations, goal planning, notifications, and conversational assistance, allowing the bank to embed AI across its existing app with minimal UI changes.&quot;</p>
+

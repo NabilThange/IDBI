@@ -1,0 +1,117 @@
+{
+  "profile_id": "priya_002",
+  "name": "Priya Patel",
+  "age": 24,
+  "occupation": "Marketing Executive",
+  "employment_type": "Salaried",
+  "city": "Bangalore",
+  "language_preference": "English",
+  "credit_bureau_data": {
+    "total_external_debt": 15000,
+    "external_loan_count": 0,
+    "credit_score": 720,
+    "external_holdings": []
+  },
+  "risk_profile": {
+    "risk_category": "Aggressive",
+    "questionnaire_answers": {
+      "financial_goals": ["Travel", "Car"],
+      "risk_reaction": "high_volatility"
+    }
+  },
+  
+  "financial_summary": {
+    "monthly_income": 55000,
+    "monthly_expenses": 38000,
+    "monthly_savings": 17000,
+    "current_balance": 85000,
+    "emergency_fund": 120000,
+    "total_investments": 180000
+  },
+  
+  "expense_breakdown": {
+    "rent": 15000,
+    "food": 6000,
+    "transportation": 3500,
+    "utilities": 2000,
+    "entertainment": 5000,
+    "shopping": 4500,
+    "misc": 2000
+  },
+  
+  "current_investments": [
+    {
+      "type": "SIP",
+      "name": "Small Cap Equity Fund",
+      "monthly_amount": 5000,
+      "current_value": 95000,
+      "started": "2023-06-01"
+    },
+    {
+      "type": "Stocks",
+      "name": "Direct Equity Portfolio",
+      "current_value": 55000,
+      "invested_amount": 48000
+    },
+    {
+      "type": "Gold",
+      "name": "Digital Gold",
+      "current_value": 30000,
+      "invested_amount": 28000
+    }
+  ],
+  
+  "loans": [],
+  
+  "goals": [
+    {
+      "goal_id": "goal_travel",
+      "name": "World Travel Fund",
+      "target_amount": 500000,
+      "target_date": "2028-12-31",
+      "current_savings": 85000,
+      "monthly_contribution": 10000,
+      "priority": "high"
+    },
+    {
+      "goal_id": "goal_car",
+      "name": "Buy Car",
+      "target_amount": 800000,
+      "target_date": "2029-06-30",
+      "current_savings": 30000,
+      "monthly_contribution": 7000,
+      "priority": "medium"
+    }
+  ],
+  
+  "transactions": [
+    {"date": "2026-06-30", "description": "Salary Credit", "amount": 55000, "category": "income", "type": "credit"},
+    {"date": "2026-06-28", "description": "Rent Payment", "amount": -15000, "category": "rent", "type": "debit"},
+    {"date": "2026-06-27", "description": "Myntra", "amount": -2800, "category": "shopping", "type": "debit"},
+    {"date": "2026-06-25", "description": "Swiggy", "amount": -950, "category": "food", "type": "debit"},
+    {"date": "2026-06-24", "description": "Nykaa", "amount": -1600, "category": "shopping", "type": "debit"},
+    {"date": "2026-06-22", "description": "Cafe Coffee Day", "amount": -450, "category": "food", "type": "debit"},
+    {"date": "2026-06-20", "description": "Uber", "amount": -380, "category": "transportation", "type": "debit"},
+    {"date": "2026-06-18", "description": "Spotify Premium", "amount": -119, "category": "entertainment", "type": "debit"},
+    {"date": "2026-06-15", "description": "BookMyShow", "amount": -850, "category": "entertainment", "type": "debit"},
+    {"date": "2026-06-12", "description": "SIP - Equity Fund", "amount": -5000, "category": "investment", "type": "debit"},
+    {"date": "2026-06-10", "description": "Zomato", "amount": -720, "category": "food", "type": "debit"},
+    {"date": "2026-06-08", "description": "Amazon", "amount": -1850, "category": "shopping", "type": "debit"},
+    {"date": "2026-06-05", "description": "Rapido", "amount": -250, "category": "transportation", "type": "debit"},
+    {"date": "2026-06-03", "description": "Reliance Fresh", "amount": -2200, "category": "food", "type": "debit"},
+    {"date": "2026-06-01", "description": "Digital Gold Purchase", "amount": -3000, "category": "investment", "type": "debit"}
+  ],
+  
+  "preferences": {
+    "preferred_language": "English",
+    "communication_mode": "WhatsApp",
+    "investment_horizon": "Medium-term (5-7 years)"
+  },
+  
+  "metadata": {
+    "profile_created": "2026-02-10",
+    "last_updated": "2026-06-30",
+    "kyc_status": "verified",
+    "customer_since": "2023-05-15"
+  }
+}

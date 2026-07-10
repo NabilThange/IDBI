@@ -1,0 +1,109 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-07-02",
+  "description": "Financial health scoring rules for IDBI Bank wealth assessment",
+  
+  "scoring": {
+    "max_score": 100,
+    "components": [
+      {
+        "name": "savings_ratio",
+        "weight": 25,
+        "description": "Monthly savings as percentage of income",
+        "rules": [
+          {"min": 30, "max": null, "points": 25, "label": "Excellent"},
+          {"min": 20, "max": 30, "points": 20, "label": "Good"},
+          {"min": 10, "max": 20, "points": 15, "label": "Fair"},
+          {"min": 0, "max": 10, "points": "linear", "formula": "value / 2", "label": "Needs Improvement"}
+        ]
+      },
+      {
+        "name": "emergency_fund_months",
+        "weight": 25,
+        "description": "Emergency fund coverage in months of expenses",
+        "target_months": 6,
+        "rules": [
+          {"min": 6, "max": null, "points": 25, "label": "Excellent"},
+          {"min": 3, "max": 6, "points": 20, "label": "Good"},
+          {"min": 1, "max": 3, "points": 15, "label": "Fair"},
+          {"min": 0, "max": 1, "points": "linear", "formula": "value * 10", "label": "Critical"}
+        ]
+      },
+      {
+        "name": "investment_ratio",
+        "weight": 25,
+        "description": "Total investments to annual income ratio",
+        "rules": [
+          {"min": 2, "max": null, "points": 25, "label": "Excellent"},
+          {"min": 1, "max": 2, "points": 20, "label": "Good"},
+          {"min": 0.5, "max": 1, "points": 15, "label": "Fair"},
+          {"min": 0, "max": 0.5, "points": "linear", "formula": "value * 20", "label": "Needs Improvement"}
+        ]
+      },
+      {
+        "name": "debt_to_income",
+        "weight": 25,
+        "description": "Total debt to annual income ratio (lower is better)",
+        "rules": [
+          {"min": 0, "max": 0.01, "points": 25, "label": "Excellent"},
+          {"min": 0.01, "max": 2, "points": 20, "label": "Good"},
+          {"min": 2, "max": 4, "points": 15, "label": "Fair"},
+          {"min": 4, "max": 6, "points": 10, "label": "Concerning"},
+          {"min": 6, "max": null, "points": 5, "label": "Critical"}
+        ]
+      }
+    ]
+  },
+  
+  "grading": {
+    "description": "Score to grade mapping",
+    "ranges": [
+      {"min": 90, "max": 100, "grade": "A+", "label": "Excellent Financial Health"},
+      {"min": 80, "max": 90, "grade": "A", "label": "Very Good Financial Health"},
+      {"min": 70, "max": 80, "grade": "B+", "label": "Good Financial Health"},
+      {"min": 60, "max": 70, "grade": "B", "label": "Fair Financial Health"},
+      {"min": 50, "max": 60, "grade": "C", "label": "Needs Improvement"},
+      {"min": 0, "max": 50, "grade": "D", "label": "Critical - Immediate Action Required"}
+    ]
+  },
+  
+  "thresholds": {
+    "description": "Key financial health thresholds",
+    "savings_ratio": {
+      "excellent": 30,
+      "good": 20,
+      "minimum": 10,
+      "critical": 5
+    },
+    "emergency_fund_months": {
+      "excellent": 6,
+      "good": 3,
+      "minimum": 1,
+      "critical": 0
+    },
+    "debt_to_income": {
+      "excellent": 0,
+      "good": 2,
+      "concerning": 4,
+      "critical": 6
+    }
+  },
+  
+  "ai_guidelines": {
+    "description": "Guidelines for AI-generated narrative",
+    "tone": "professional, empathetic, actionable",
+    "language": "simple, avoid jargon",
+    "strengths": {
+      "count": 3,
+      "format": "Specific metric with actual value"
+    },
+    "concerns": {
+      "count": 2,
+      "format": "Issue with target and gap"
+    },
+    "recommendations": {
+      "count": 4,
+      "format": "Actionable step with specific numbers and timeline"
+    }
+  }
+}

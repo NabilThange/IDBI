@@ -1,0 +1,132 @@
+{
+  "profile_id": "meena_004",
+  "name": "Meena Iyer",
+  "age": 62,
+  "occupation": "Retired Teacher",
+  "employment_type": "Retired",
+  "city": "Chennai",
+  "language_preference": "Tamil",
+  "credit_bureau_data": {
+    "total_external_debt": 0,
+    "external_loan_count": 0,
+    "credit_score": 800,
+    "external_holdings": []
+  },
+  "risk_profile": {
+    "risk_category": "Conservative",
+    "questionnaire_answers": {
+      "financial_goals": ["Healthcare", "Grandchild Gift"],
+      "risk_reaction": "highly_conservative"
+    }
+  },
+  
+  "financial_summary": {
+    "monthly_income": 65000,
+    "monthly_expenses": 42000,
+    "monthly_savings": 23000,
+    "current_balance": 450000,
+    "emergency_fund": 800000,
+    "total_investments": 5500000
+  },
+  
+  "expense_breakdown": {
+    "household": 12000,
+    "food": 8000,
+    "healthcare": 10000,
+    "utilities": 4000,
+    "transportation": 3000,
+    "entertainment": 3000,
+    "misc": 2000
+  },
+  
+  "current_investments": [
+    {
+      "type": "FD",
+      "name": "Senior Citizen Fixed Deposit",
+      "amount": 2500000,
+      "interest_rate": 8.0,
+      "maturity_date": "2029-12-31"
+    },
+    {
+      "type": "SCSS",
+      "name": "Senior Citizens Savings Scheme",
+      "amount": 1500000,
+      "interest_rate": 8.2,
+      "maturity_date": "2029-03-31"
+    },
+    {
+      "type": "PPF",
+      "name": "Public Provident Fund",
+      "current_value": 850000,
+      "maturity_date": "2030-03-31"
+    },
+    {
+      "type": "Debt Mutual Fund",
+      "name": "Conservative Debt Fund",
+      "current_value": 450000,
+      "invested_amount": 420000
+    },
+    {
+      "type": "Gold",
+      "name": "Physical Gold",
+      "current_value": 200000,
+      "invested_amount": 150000
+    }
+  ],
+  
+  "loans": [],
+  
+  "goals": [
+    {
+      "goal_id": "goal_healthcare",
+      "name": "Healthcare Reserve Fund",
+      "target_amount": 2000000,
+      "target_date": "2031-12-31",
+      "current_savings": 800000,
+      "monthly_contribution": 10000,
+      "priority": "high"
+    },
+    {
+      "goal_id": "goal_grandchild",
+      "name": "Grandchild Education Gift",
+      "target_amount": 1000000,
+      "target_date": "2030-12-31",
+      "current_savings": 200000,
+      "monthly_contribution": 8000,
+      "priority": "medium"
+    }
+  ],
+  
+  "transactions": [
+    {"date": "2026-06-30", "description": "Pension Credit", "amount": 45000, "category": "income", "type": "credit"},
+    {"date": "2026-06-30", "description": "FD Interest Credit", "amount": 16000, "category": "income", "type": "credit"},
+    {"date": "2026-06-30", "description": "SCSS Interest Credit", "amount": 4000, "category": "income", "type": "credit"},
+    {"date": "2026-06-28", "description": "DMart", "amount": -3500, "category": "food", "type": "debit"},
+    {"date": "2026-06-27", "description": "Medical Bills", "amount": -2800, "category": "healthcare", "type": "debit"},
+    {"date": "2026-06-25", "description": "Pharmacy", "amount": -1500, "category": "healthcare", "type": "debit"},
+    {"date": "2026-06-24", "description": "Electricity Bill", "amount": -2200, "category": "utilities", "type": "debit"},
+    {"date": "2026-06-22", "description": "Temple Donation", "amount": -1000, "category": "charity", "type": "debit"},
+    {"date": "2026-06-20", "description": "Vegetable Market", "amount": -1200, "category": "food", "type": "debit"},
+    {"date": "2026-06-18", "description": "Doctor Consultation", "amount": -800, "category": "healthcare", "type": "debit"},
+    {"date": "2026-06-15", "description": "Grandson Birthday Gift", "amount": -3000, "category": "gifts", "type": "debit"},
+    {"date": "2026-06-12", "description": "Healthcare Reserve Fund", "amount": -10000, "category": "investment", "type": "debit"},
+    {"date": "2026-06-10", "description": "Reliance Fresh", "amount": -2800, "category": "food", "type": "debit"},
+    {"date": "2026-06-08", "description": "Water Bill", "amount": -800, "category": "utilities", "type": "debit"},
+    {"date": "2026-06-05", "description": "Auto Rickshaw", "amount": -450, "category": "transportation", "type": "debit"},
+    {"date": "2026-06-03", "description": "Grandchild Education Fund", "amount": -8000, "category": "investment", "type": "debit"},
+    {"date": "2026-06-01", "description": "Health Insurance Premium", "amount": -5000, "category": "insurance", "type": "debit"}
+  ],
+  
+  "preferences": {
+    "preferred_language": "Tamil",
+    "communication_mode": "SMS",
+    "investment_horizon": "Short-term (1-3 years)"
+  },
+  
+  "metadata": {
+    "profile_created": "2025-09-15",
+    "last_updated": "2026-06-30",
+    "kyc_status": "verified",
+    "customer_since": "1995-04-20"
+  }
+}

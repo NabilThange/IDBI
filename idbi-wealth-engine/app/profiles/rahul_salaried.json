@@ -1,0 +1,120 @@
+{
+  "profile_id": "rahul_001",
+  "name": "Rahul Sharma",
+  "age": 28,
+  "occupation": "Software Engineer",
+  "employment_type": "Salaried",
+  "city": "Mumbai",
+  "language_preference": "Hindi",
+  "credit_bureau_data": {
+    "total_external_debt": 50000,
+    "external_loan_count": 1,
+    "credit_score": 750,
+    "external_holdings": [
+      {"type": "Savings", "bank": "HDFC Bank", "amount": 40000}
+    ]
+  },
+  "risk_profile": {
+    "risk_category": "Moderate",
+    "questionnaire_answers": {
+      "financial_goals": ["House", "Retirement"],
+      "risk_reaction": "moderate_volatility"
+    }
+  },
+  
+  "financial_summary": {
+    "monthly_income": 90000,
+    "monthly_expenses": 55000,
+    "monthly_savings": 35000,
+    "current_balance": 280000,
+    "emergency_fund": 250000,
+    "total_investments": 450000
+  },
+  
+  "expense_breakdown": {
+    "rent": 25000,
+    "food": 8000,
+    "transportation": 5000,
+    "utilities": 3000,
+    "entertainment": 6000,
+    "shopping": 5000,
+    "misc": 3000
+  },
+  
+  "current_investments": [
+    {
+      "type": "SIP",
+      "name": "Equity Mutual Fund",
+      "monthly_amount": 8000,
+      "current_value": 180000,
+      "started": "2022-01-01"
+    },
+    {
+      "type": "PPF",
+      "name": "Public Provident Fund",
+      "yearly_amount": 150000,
+      "current_value": 200000,
+      "started": "2021-04-01"
+    },
+    {
+      "type": "FD",
+      "name": "Fixed Deposit",
+      "amount": 70000,
+      "interest_rate": 7.5,
+      "maturity_date": "2027-03-15"
+    }
+  ],
+  
+  "loans": [],
+  
+  "goals": [
+    {
+      "goal_id": "goal_house",
+      "name": "Buy House",
+      "target_amount": 5000000,
+      "target_date": "2029-12-31",
+      "current_savings": 280000,
+      "monthly_contribution": 15000,
+      "priority": "high"
+    },
+    {
+      "goal_id": "goal_retirement",
+      "name": "Retirement Fund",
+      "target_amount": 20000000,
+      "target_date": "2054-12-31",
+      "current_savings": 200000,
+      "monthly_contribution": 8000,
+      "priority": "medium"
+    }
+  ],
+  
+  "transactions": [
+    {"date": "2026-06-30", "description": "Salary Credit", "amount": 90000, "category": "income", "type": "credit"},
+    {"date": "2026-06-28", "description": "Rent Payment", "amount": -25000, "category": "rent", "type": "debit"},
+    {"date": "2026-06-25", "description": "Big Basket", "amount": -3500, "category": "food", "type": "debit"},
+    {"date": "2026-06-24", "description": "Uber", "amount": -450, "category": "transportation", "type": "debit"},
+    {"date": "2026-06-22", "description": "Zomato", "amount": -850, "category": "food", "type": "debit"},
+    {"date": "2026-06-20", "description": "Amazon", "amount": -2200, "category": "shopping", "type": "debit"},
+    {"date": "2026-06-18", "description": "Netflix", "amount": -649, "category": "entertainment", "type": "debit"},
+    {"date": "2026-06-15", "description": "Electricity Bill", "amount": -1800, "category": "utilities", "type": "debit"},
+    {"date": "2026-06-12", "description": "SIP - Mutual Fund", "amount": -8000, "category": "investment", "type": "debit"},
+    {"date": "2026-06-10", "description": "Swiggy", "amount": -650, "category": "food", "type": "debit"},
+    {"date": "2026-06-08", "description": "PVR Cinemas", "amount": -1200, "category": "entertainment", "type": "debit"},
+    {"date": "2026-06-05", "description": "Flipkart", "amount": -3200, "category": "shopping", "type": "debit"},
+    {"date": "2026-06-03", "description": "Petrol Pump", "amount": -2500, "category": "transportation", "type": "debit"},
+    {"date": "2026-06-01", "description": "DMart", "amount": -2800, "category": "food", "type": "debit"}
+  ],
+  
+  "preferences": {
+    "preferred_language": "English",
+    "communication_mode": "App Notifications",
+    "investment_horizon": "Long-term (10+ years)"
+  },
+  
+  "metadata": {
+    "profile_created": "2026-01-15",
+    "last_updated": "2026-06-30",
+    "kyc_status": "verified",
+    "customer_since": "2020-03-01"
+  }
+}

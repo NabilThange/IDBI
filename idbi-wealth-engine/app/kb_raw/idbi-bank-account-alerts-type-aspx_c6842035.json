@@ -1,0 +1,18 @@
+{
+  "url": "https://www.idbi.bank.in/idbi-bank-account-alerts-type.aspx",
+  "title": "Personal & Corporate Banking | MSME & Agri banking - IDBI Bank",
+  "content": "You can customise your AccountAlerts as per your need or you can choose to subscribe to all the alerts so that you remain updated on the activity in your account all all times.\nIf the amount debited or credited to your account is greater than Rs 5,000, we will instantly send you an alert of the transaction. You can also customise the credit/debit alerts amounts between Rs 5,000 to Rs 50,000 Get instant updates when your salary gets credited to your bank account. To avail this facility, you need to have a Corporate Salary Account with us. At the beginning of every week, get updated on the balance in your account. To receive this alert, you should have transacted at least once during the previous week. In the event of a cheque deposited by you not being honoured, we will update you about it immediately, so that you can instantly take corrective measures. Choosing this alert enables you to receive reminders for utility bills well before their payment due date approaches. This facility is available only for registered presentment billers. If you are not a registered bill pay user, contact your nearest branch today or logon to www.idbibank.com and register online. Orders issued for stoppage of cheque payments will now be confirmed to you as soon as the instruction is processed.",
+  "category": "corporate",
+  "page_type": "calculator",
+  "cta_label": "Apply Now",
+  "cta_url": "https://www.idbi.bank.in/apply-now.aspx",
+  "content_hash": "c684203581aac909fb595807b30a5cda3dcf8ed8f4dd105f37b7f5abc5d29b10",
+  "crawled_at": "2026-07-10T12:41:44.725137Z",
+  "metadata": {
+    "description": "Account Alerts allows you to monitor various type of activity on your accounts, and be notified either by E-mail or SMS as and when they are executed.",
+    "keywords": null,
+    "word_count": 221,
+    "internal_links_count": 210,
+    "external_links_count": 20
+  }
+}

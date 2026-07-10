@@ -1,0 +1,18 @@
+{
+  "url": "https://www.idbi.bank.in/about-electronic-insurance-account.aspx",
+  "title": "Personal & Corporate Banking | MSME & Agri banking - IDBI Bank",
+  "content": "means a company formed and registered under the Companies Act, 1956 and which has been granted a certificate of registration by Insurance Regulatory and Development Authority (IRDA) for maintaining data of insurance policies in electronic form on behalf of Insurers. \nTo implement the Insurance Repository System, IRDA has granted Certificate of Registration to the following five entities to act as Insurance Repositories. \n\n\nA policy holder can buy and keep all the policies under an electronic Insurance Account (eIA) with any one of the Insurance Repository of his/ her choice. The existing policies in physical mode too can be dematerialized and held in the eIA. The access to all the policies is then available at a click of a button. The Insurance Repository System not only provides policyholders a facility to keep insurance policies in electronic form but also enables them to undertake changes, modifications and revisions in the insurance policies with speed and accuracy. In addition, the Repository acts as a ‘single stop shop’ for policy servicing.\nDiagrammatic representation of the policy servicing framework is as follows: \n\n\n  * Insurance Repositories enter into an agreement with the insurers who share the electronic data pertaining to the insurance policies with the Repositories. \n  * The Insurance Repository does a KYC to open an e-Insurance Account and provides a welcome kit and helps with the details of how to use the account. \n  * The policyholders at the time of taking a policy or any time later can make a request for an e-Insurance account with the Insurance Repositories and have the policies credited to the account. \n  * Both new and existing Life, Annuities, Health and General insurance policies can all be credited to this account. However, during the initial phase, the Life insurance policies would be credited to this account. The General insurance and Group insurance policies would be credited subsequently. \n  * The e-Insurance Account and all servicing would be offered ‘Free of cost’ to the policyholder. \n  * The Insurers would be sending an insurance information sheet containing the basic details of insurance policy when a new electronic policy is issued. \n  * The Insurance Repositories provide facility for online payment of premiums by the policyholders’ and payouts (claims) by the Insurers and handle several other servicing needs. \n  * Upon receipt of a service request, the Insurance Repository would handle areas that fall within scope of their services directly and would forward the others to the Insurer. \n  * The policyholder can appoint an Authorized Representative who can access the e-Insurance Account on the demise/disability of the policyholder to facilitate the nominees in the claim processing. \n  * The e-Insurance Account holder will have an option to shift from one repository to the other. \n  * A statement of account giving the details of all policies held electronically shall be provided annually by the Insurance Repository.",
+  "category": "insurance",
+  "page_type": "general",
+  "cta_label": "Apply Now",
+  "cta_url": "https://www.idbi.bank.in/apply-now.aspx",
+  "content_hash": "83957dadd4a351da7d35c3148d4cf1a51ffc61590c610ea2bb291c647de1617d",
+  "crawled_at": "2026-07-10T12:39:15.562850Z",
+  "metadata": {
+    "description": "",
+    "keywords": null,
+    "word_count": 468,
+    "internal_links_count": 209,
+    "external_links_count": 25
+  }
+}

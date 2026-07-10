@@ -1,0 +1,18 @@
+{
+  "url": "https://www.idbi.bank.in/msme-banking.aspx",
+  "title": "Personal & Corporate Banking | MSME & Agri banking - IDBI Bank",
+  "content": "* [Checklist of Documents to be submitted along with loan application form MSMEs](https://www.idbi.bank.in/pdf/Checklist_MSME.pdf)",
+  "category": "corporate",
+  "page_type": "forms",
+  "cta_label": "Apply Now",
+  "cta_url": "https://www.idbi.bank.in/apply-now-msme.aspx",
+  "content_hash": "c86365e2af9c7aa8c98142805bc2978ff73d4cd5dc4562b9bead0af0ab1ab0e6",
+  "crawled_at": "2026-07-10T12:42:59.206638Z",
+  "metadata": {
+    "description": "IDBI Bank offers a wide range of products from savings and current bank account to loans for retail and msme customers  or agri loans to farmers. Apply Now.",
+    "keywords": "Internet Banking, savings account, Debit Card, personal loans, home loans, loans, fixed deposits",
+    "word_count": 13,
+    "internal_links_count": 154,
+    "external_links_count": 20
+  }
+}

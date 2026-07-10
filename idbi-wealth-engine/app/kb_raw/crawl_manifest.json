@@ -1,0 +1,2389 @@
+{
+  "crawl_timestamp": "2026-07-10T12:45:41.455670Z",
+  "domain": "www.idbi.bank.in",
+  "discovery_method": "sitemap",
+  "urls_discovered": 396,
+  "pages_crawled": 396,
+  "pages_failed": 0,
+  "pages_skipped": 0,
+  "crawled_pages": [
+    {
+      "url": "https://www.idbi.bank.in/24-7-care.aspx",
+      "file": "24-7-care-aspx_272c5be8.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/Eclat-credit-card.aspx",
+      "file": "eclat-credit-card-aspx_f49b7b8a.json",
+      "category": "loans",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/Debit-card-offers.aspx",
+      "file": "debit-card-offers-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/Annual-Return.aspx",
+      "file": "annual-return-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/COVID-19-Ex-Gratia-Payment.aspx",
+      "file": "covid-19-ex-gratia-payment-aspx_ae4e2374.json",
+      "category": "corporate",
+      "page_type": "faq"
+    },
+    {
+      "url": "https://www.idbi.bank.in/Euphoria-credit-card.aspx",
+      "file": "euphoria-credit-card-aspx_2733295d.json",
+      "category": "loans",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/General-Credit-Card-loan.aspx",
+      "file": "general-credit-card-loan-aspx_82adab54.json",
+      "category": "loans",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/List-of-Aadhaar-Enrolment-Center.aspx",
+      "file": "list-of-aadhaar-enrolment-center-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/Imperium-credit-card.aspx",
+      "file": "imperium-credit-card-aspx_99012919.json",
+      "category": "loans",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/Linking-of-PAN-with-Aadhar.aspx",
+      "file": "linking-of-pan-with-aadhar-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/Lumine-credit-card.aspx",
+      "file": "lumine-credit-card-aspx_d936a324.json",
+      "category": "loans",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/Upcoming_Events.aspx",
+      "file": "upcoming_events-aspx_e8ecaa90.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/PayWiz-UPI.aspx",
+      "file": "paywiz-upi-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/Reservation-Roster-details-Officers.aspx",
+      "file": "reservation-roster-details-officers-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/Winnings-credit-card.aspx",
+      "file": "winnings-credit-card-aspx_1457e324.json",
+      "category": "loans",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/aarogya-fixed-deposit.aspx",
+      "file": "aarogya-fixed-deposit-aspx_bb86170d.json",
+      "category": "deposits",
+      "page_type": "product_info"
+    },
+    {
+      "url": "https://www.idbi.bank.in/abhay.aspx",
+      "file": "abhay-aspx_c1bc176e.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/about-electronic-insurance-account.aspx",
+      "file": "about-electronic-insurance-account-aspx_83957dad.json",
+      "category": "insurance",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/advantage-diva-savings-account.aspx",
+      "file": "advantage-diva-savings-account-aspx_8f3a2153.json",
+      "category": "deposits",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/about-idbi-delight.aspx",
+      "file": "about-idbi-delight-aspx_ac57c789.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/advantage-bonanza-account.aspx",
+      "file": "advantage-bonanza-account-aspx_55b8024c.json",
+      "category": "corporate",
+      "page_type": "product_info"
+    },
+    {
+      "url": "https://www.idbi.bank.in/advantage-kidz-savings-account.aspx",
+      "file": "advantage-kidz-savings-account-aspx_22859210.json",
+      "category": "deposits",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/advantage-superior-savings-account.aspx",
+      "file": "advantage-superior-savings-account-aspx_a3453a84.json",
+      "category": "deposits",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/advantage-plus-savings-account.aspx",
+      "file": "advantage-plus-savings-account-aspx_57a700af.json",
+      "category": "deposits",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/advantage-savings-account.aspx",
+      "file": "advantage-savings-account-aspx_d84ac2d9.json",
+      "category": "deposits",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/advantage-prime-savings-account.aspx",
+      "file": "advantage-prime-savings-account-aspx_505eee8c.json",
+      "category": "deposits",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/advertisements-in-newspaper.aspx",
+      "file": "advertisements-in-newspaper-aspx_0a90aca2.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/agm-egm-postal-ballot-voting-results.aspx",
+      "file": "agm-egm-postal-ballot-voting-results-aspx_0a90aca2.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/allied-activities.aspx",
+      "file": "allied-activities-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/agri-banking.aspx",
+      "file": "agri-banking-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/announcements.aspx",
+      "file": "announcements-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/annual-secretarial-compliance-report.aspx",
+      "file": "annual-secretarial-compliance-report-aspx_0a90aca2.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/annual-returns-to-CIC.aspx",
+      "file": "annual-returns-to-cic-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/apply-now-agri.aspx",
+      "file": "apply-now-agri-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/apply-now-corp.aspx",
+      "file": "apply-now-corp-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/apply-now-msme.aspx",
+      "file": "apply-now-msme-aspx_26f6e54d.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/apply-now.aspx",
+      "file": "apply-now-aspx_340fbe2d.json",
+      "category": "corporate",
+      "page_type": "forms"
+    },
+    {
+      "url": "https://www.idbi.bank.in/apply-now-nri.aspx",
+      "file": "apply-now-nri-aspx_e3b0c442.json",
+      "category": "nri",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/aspire-credit-card.aspx",
+      "file": "aspire-credit-card-aspx_e435c82c.json",
+      "category": "loans",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/auto-loan.aspx",
+      "file": "auto-loan-aspx_e132d824.json",
+      "category": "loans",
+      "page_type": "calculator"
+    },
+    {
+      "url": "https://www.idbi.bank.in/bank-guarantee.aspx",
+      "file": "bank-guarantee-aspx_617da9a9.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/banking-complaints-I.aspx",
+      "file": "banking-complaints-i-aspx_7f8fbd2e.json",
+      "category": "corporate",
+      "page_type": "contact"
+    },
+    {
+      "url": "https://www.idbi.bank.in/beekeeping.aspx",
+      "file": "beekeeping-aspx_2430858a.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/bhim-digital-pos.aspx",
+      "file": "bhim-digital-pos-aspx_dd084d7c.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/bill-discounting.aspx",
+      "file": "bill-discounting-aspx_0117bd3b.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/being-me-debit-card.aspx",
+      "file": "being-me-debit-card-aspx_3e485cd5.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/boe-online.aspx",
+      "file": "boe-online-aspx_ca423836.json",
+      "category": "digital_banking",
+      "page_type": "calculator"
+    },
+    {
+      "url": "https://www.idbi.bank.in/biogas-plants.aspx",
+      "file": "biogas-plants-aspx_4ef14311.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/board-of-directors.aspx",
+      "file": "board-of-directors-aspx_00853da1.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/bronze-salary-account.aspx",
+      "file": "bronze-salary-account-aspx_9a48d141.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/bse-rating-change.aspx",
+      "file": "bse-rating-change-aspx_0a90aca2.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/buyers-credit.aspx",
+      "file": "buyers-credit-aspx_54efff6c.json",
+      "category": "loans",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/business-responsibility-report.aspx",
+      "file": "business-responsibility-report-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/business-correspondent-model.aspx",
+      "file": "business-correspondent-model-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/capital-gains-bonds.aspx",
+      "file": "capital-gains-bonds-aspx_2827233e.json",
+      "category": "corporate",
+      "page_type": "product_info"
+    },
+    {
+      "url": "https://www.idbi.bank.in/card-to-card.aspx",
+      "file": "card-to-card-aspx_3a6a65d2.json",
+      "category": "corporate",
+      "page_type": "product_info"
+    },
+    {
+      "url": "https://www.idbi.bank.in/capital-gain-account.aspx",
+      "file": "capital-gain-account-aspx_9884123f.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/careers-faq.aspx",
+      "file": "careers-faq-aspx_5fafbaac.json",
+      "category": "corporate",
+      "page_type": "faq"
+    },
+    {
+      "url": "https://www.idbi.bank.in/cash-at-pos-on-debit-cards.aspx",
+      "file": "cash-at-pos-on-debit-cards-aspx_a6572f0a.json",
+      "category": "corporate",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/cash-card.aspx",
+      "file": "cash-card-aspx_d827784e.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/cash-credit.aspx",
+      "file": "cash-credit-aspx_c0414f22.json",
+      "category": "loans",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/cash-dispense-vendors.aspx",
+      "file": "cash-dispense-vendors-aspx_e7e8b698.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/central-bank-digital-currency.aspx",
+      "file": "central-bank-digital-currency-aspx_49749822.json",
+      "category": "corporate",
+      "page_type": "product_info"
+    },
+    {
+      "url": "https://www.idbi.bank.in/classic-debit-card.aspx",
+      "file": "classic-debit-card-aspx_375b8fcf.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/cms-collection-products.aspx",
+      "file": "cms-collection-products-aspx_2e08b134.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/client-registration-documents.aspx",
+      "file": "client-registration-documents-aspx_2690a946.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/centralsector.aspx",
+      "file": "centralsector-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/cms-debtservice-products.aspx",
+      "file": "cms-debtservice-products-aspx_e18880ee.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/cms-virtual-account-system.aspx",
+      "file": "cms-virtual-account-system-aspx_5f50131f.json",
+      "category": "corporate",
+      "page_type": "calculator"
+    },
+    {
+      "url": "https://www.idbi.bank.in/cms-payment-products.aspx",
+      "file": "cms-payment-products-aspx_57495acb.json",
+      "category": "corporate",
+      "page_type": "product_info"
+    },
+    {
+      "url": "https://www.idbi.bank.in/cms-hosttohost-connectivity.aspx",
+      "file": "cms-hosttohost-connectivity-aspx_49b7a1f9.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/commercial-property-purchase.aspx",
+      "file": "commercial-property-purchase-aspx_558b9da2.json",
+      "category": "corporate",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/commitment-code.aspx",
+      "file": "commitment-code-aspx_e73d19fd.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/contact-us.aspx",
+      "file": "contact-us-aspx_a70e34f4.json",
+      "category": "corporate",
+      "page_type": "contact"
+    },
+    {
+      "url": "https://www.idbi.bank.in/corp-achievements.aspx",
+      "file": "corp-achievements-aspx_d34390b0.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/corp-service-charges.aspx",
+      "file": "corp-service-charges-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/corporate-banking.aspx",
+      "file": "corporate-banking-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/corporate-social-responsibility.aspx",
+      "file": "corporate-social-responsibility-aspx_4fa91bad.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/credit-card-contact-us.aspx",
+      "file": "credit-card-contact-us-aspx_a9f138bf.json",
+      "category": "loans",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/corporate_governance.aspx",
+      "file": "corporate_governance-aspx_0a90aca2.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/credit-card-grievanceredressal.aspx",
+      "file": "credit-card-grievanceredressal-aspx_50a3481d.json",
+      "category": "loans",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/credit-card-offers.aspx",
+      "file": "credit-card-offers-aspx_e3b0c442.json",
+      "category": "loans",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/credit-card.aspx",
+      "file": "credit-card-aspx_74f85337.json",
+      "category": "loans",
+      "page_type": "product_info"
+    },
+    {
+      "url": "https://www.idbi.bank.in/csr-recognition.aspx",
+      "file": "csr-recognition-aspx_f1e2ea37.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/credit-rating.aspx",
+      "file": "credit-rating-aspx_0a90aca2.json",
+      "category": "loans",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/csr-documentary.aspx",
+      "file": "csr-documentary-aspx_cf5df202.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/crop-loan.aspx",
+      "file": "crop-loan-aspx_4d92ed3b.json",
+      "category": "loans",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/customer-care-centre.aspx",
+      "file": "customer-care-centre-aspx_c286fe1c.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/dairy-farming.aspx",
+      "file": "dairy-farming-aspx_42981a7f.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/dealers-of-corporates.aspx",
+      "file": "dealers-of-corporates-aspx_e447b471.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/dfs.aspx",
+      "file": "dfs-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/debit-card-green-pin-generation.aspx",
+      "file": "debit-card-green-pin-generation-aspx_06ade0a7.json",
+      "category": "corporate",
+      "page_type": "contact"
+    },
+    {
+      "url": "https://www.idbi.bank.in/debit-card.aspx",
+      "file": "debit-card-aspx_ef51bcbd.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/dicgc.aspx",
+      "file": "dicgc-aspx_76e9fe74.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/demat-and-trading.aspx",
+      "file": "demat-and-trading-aspx_17c49a6c.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/disclaimer.aspx?lk=A",
+      "file": "disclaimer-aspx_f4b513e0.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/disclaimer.aspx?lk=EPFO",
+      "file": "disclaimer-aspx_f4b513e0.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/disclaimer.aspx?lk=ESIC",
+      "file": "disclaimer-aspx_f4b513e0.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/disclaimer.aspx?lk=RBI-Kehta-Hai",
+      "file": "disclaimer-aspx_f4b513e0.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/disclaimer.aspx?lk=JPYDLC",
+      "file": "disclaimer-aspx_f4b513e0.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/disclaimer.aspx?lk=epledge",
+      "file": "disclaimer-aspx_f4b513e0.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/disclaimer.aspx?lk=ccilindia",
+      "file": "disclaimer-aspx_f4b513e0.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/disclaimer.aspx?lk=psbloansin59minutes",
+      "file": "disclaimer-aspx_f4b513e0.json",
+      "category": "loans",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/disclaimer.aspx?lk=udgam",
+      "file": "disclaimer-aspx_f4b513e0.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/disclosure-under-regulation-30.aspx",
+      "file": "disclosure-under-regulation-30-aspx_0a90aca2.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/disclosure-of-related-party-transactions.aspx",
+      "file": "disclosure-of-related-party-transactions-aspx_0a90aca2.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/dos-donts-banking.aspx",
+      "file": "dos-donts-banking-aspx_0879ef6e.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/dug-wells.aspx",
+      "file": "dug-wells-aspx_6821c578.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/electronic-insurance-account.aspx",
+      "file": "electronic-insurance-account-aspx_e3b0c442.json",
+      "category": "insurance",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/education-loan.aspx",
+      "file": "education-loan-aspx_6798e22d.json",
+      "category": "loans",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/eMerchant-current-account.aspx",
+      "file": "emerchant-current-account-aspx_0260f699.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/esg-environmental-social-governance.aspx",
+      "file": "esg-environmental-social-governance-aspx_3540d257.json",
+      "category": "corporate",
+      "page_type": "product_info"
+    },
+    {
+      "url": "https://www.idbi.bank.in/euphoria-master-card-offer-inner.aspx",
+      "file": "euphoria-master-card-offer-inner-aspx_24d90ac6.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/executive-directors.aspx",
+      "file": "executive-directors-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/faq-advantage-savings-account.aspx",
+      "file": "faq-advantage-savings-account-aspx_67df21ba.json",
+      "category": "deposits",
+      "page_type": "faq"
+    },
+    {
+      "url": "https://www.idbi.bank.in/faq-asba-ipo-payment-option.aspx",
+      "file": "faq-asba-ipo-payment-option-aspx_5f3a5996.json",
+      "category": "corporate",
+      "page_type": "faq"
+    },
+    {
+      "url": "https://www.idbi.bank.in/faq-atm-usage.aspx",
+      "file": "faq-atm-usage-aspx_f8e5628c.json",
+      "category": "corporate",
+      "page_type": "faq"
+    },
+    {
+      "url": "https://www.idbi.bank.in/faq-cash-card.aspx",
+      "file": "faq-cash-card-aspx_82d23cde.json",
+      "category": "corporate",
+      "page_type": "faq"
+    },
+    {
+      "url": "https://www.idbi.bank.in/faq-corporate-payroll.aspx",
+      "file": "faq-corporate-payroll-aspx_0042ad2d.json",
+      "category": "corporate",
+      "page_type": "faq"
+    },
+    {
+      "url": "https://www.idbi.bank.in/faq-covid-installment.aspx",
+      "file": "faq-covid-installment-aspx_c930fe14.json",
+      "category": "corporate",
+      "page_type": "faq"
+    },
+    {
+      "url": "https://www.idbi.bank.in/faq-gift-card.aspx",
+      "file": "faq-gift-card-aspx_2e514168.json",
+      "category": "corporate",
+      "page_type": "faq"
+    },
+    {
+      "url": "https://www.idbi.bank.in/faq-electronic-insurance-account.aspx",
+      "file": "faq-electronic-insurance-account-aspx_c0f17336.json",
+      "category": "insurance",
+      "page_type": "faq"
+    },
+    {
+      "url": "https://www.idbi.bank.in/faq-home-loan.aspx",
+      "file": "faq-home-loan-aspx_c7ef369a.json",
+      "category": "loans",
+      "page_type": "faq"
+    },
+    {
+      "url": "https://www.idbi.bank.in/faq-fixed-deposit.aspx",
+      "file": "faq-fixed-deposit-aspx_80395675.json",
+      "category": "deposits",
+      "page_type": "faq"
+    },
+    {
+      "url": "https://www.idbi.bank.in/faq-loan-against-property.aspx",
+      "file": "faq-loan-against-property-aspx_e0e4cd0d.json",
+      "category": "loans",
+      "page_type": "faq"
+    },
+    {
+      "url": "https://www.idbi.bank.in/faq-mobile-banking.aspx",
+      "file": "faq-mobile-banking-aspx_84dfcaa4.json",
+      "category": "corporate",
+      "page_type": "faq"
+    },
+    {
+      "url": "https://www.idbi.bank.in/faq-phone-banking.aspx",
+      "file": "faq-phone-banking-aspx_3da52bd4.json",
+      "category": "corporate",
+      "page_type": "faq"
+    },
+    {
+      "url": "https://www.idbi.bank.in/faq-money-transfer-faq.aspx",
+      "file": "faq-money-transfer-faq-aspx_45f1cf7a.json",
+      "category": "corporate",
+      "page_type": "faq"
+    },
+    {
+      "url": "https://www.idbi.bank.in/faq-personal-loan.aspx",
+      "file": "faq-personal-loan-aspx_ef751286.json",
+      "category": "loans",
+      "page_type": "faq"
+    },
+    {
+      "url": "https://www.idbi.bank.in/faq-portfolio-investment-scheme-faq.aspx",
+      "file": "faq-portfolio-investment-scheme-faq-aspx_ea1f0220.json",
+      "category": "investments",
+      "page_type": "faq"
+    },
+    {
+      "url": "https://www.idbi.bank.in/faq.aspx",
+      "file": "faq-aspx_8d0c01aa.json",
+      "category": "corporate",
+      "page_type": "faq"
+    },
+    {
+      "url": "https://www.idbi.bank.in/farm-mechanization.aspx",
+      "file": "farm-mechanization-aspx_ef7a32ad.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/finance-against-agri-produce.aspx",
+      "file": "finance-against-agri-produce-aspx_a342e4d2.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/fcnr-deposits-scheme.aspx",
+      "file": "fcnr-deposits-scheme-aspx_2af85336.json",
+      "category": "nri",
+      "page_type": "calculator"
+    },
+    {
+      "url": "https://www.idbi.bank.in/fastag.aspx",
+      "file": "fastag-aspx_4626ab5f.json",
+      "category": "corporate",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/fdcustomer-notice.aspx",
+      "file": "fdcustomer-notice-aspx_9c3f4e07.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/finance-to-medical-practitioners.aspx",
+      "file": "finance-to-medical-practitioners-aspx_e6c7b0f2.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/fisheries.aspx",
+      "file": "fisheries-aspx_b7fe9697.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/financial-inclusion.aspx",
+      "file": "financial-inclusion-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/flexi-bonds-recent-redemption.aspx",
+      "file": "flexi-bonds-recent-redemption-aspx_d5477504.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/flexi-bond.aspx",
+      "file": "flexi-bond-aspx_f43b7e3c.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/floating-rate-savings-bonds.aspx",
+      "file": "floating-rate-savings-bonds-aspx_d7e51fef.json",
+      "category": "deposits",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/floating-rate-fixed-deposit.aspx",
+      "file": "floating-rate-fixed-deposit-aspx_b5def095.json",
+      "category": "deposits",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/fund-transfer.aspx",
+      "file": "fund-transfer-aspx_b178be4d.json",
+      "category": "corporate",
+      "page_type": "faq"
+    },
+    {
+      "url": "https://www.idbi.bank.in/forms-for-settlement-of-death-claims.aspx",
+      "file": "forms-for-settlement-of-death-claims-aspx_92699986.json",
+      "category": "corporate",
+      "page_type": "forms"
+    },
+    {
+      "url": "https://www.idbi.bank.in/fx-remit.aspx",
+      "file": "fx-remit-aspx_192c03f8.json",
+      "category": "corporate",
+      "page_type": "calculator"
+    },
+    {
+      "url": "https://www.idbi.bank.in/fx-retail.aspx",
+      "file": "fx-retail-aspx_a0169419.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/gbg-state-taxpayments.aspx",
+      "file": "gbg-state-taxpayments-aspx_d65c91ff.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/gift-card.aspx",
+      "file": "gift-card-aspx_43fb4433.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/go_mobile_app_android_version.aspx",
+      "file": "go_mobile_app_android_version-aspx_191942cf.json",
+      "category": "corporate",
+      "page_type": "product_info"
+    },
+    {
+      "url": "https://www.idbi.bank.in/gold-loan.aspx",
+      "file": "gold-loan-aspx_d3680b8a.json",
+      "category": "loans",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/gold-debit-card.aspx",
+      "file": "gold-debit-card-aspx_86c24c73.json",
+      "category": "investments",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/gold-salary-account.aspx",
+      "file": "gold-salary-account-aspx_19dec93c.json",
+      "category": "investments",
+      "page_type": "product_info"
+    },
+    {
+      "url": "https://www.idbi.bank.in/help-us-contact-you.aspx",
+      "file": "help-us-contact-you-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/home-loan-pmay-clss.aspx",
+      "file": "home-loan-pmay-clss-aspx_53ce75b1.json",
+      "category": "loans",
+      "page_type": "calculator"
+    },
+    {
+      "url": "https://www.idbi.bank.in/gram-unnati-business-account.aspx",
+      "file": "gram-unnati-business-account-aspx_47a357c0.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/hindi/sitemap.aspx",
+      "file": "hindi_sitemap-aspx_9e528374.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/home-loan.aspx",
+      "file": "home-loan-aspx_609ebd96.json",
+      "category": "loans",
+      "page_type": "product_info"
+    },
+    {
+      "url": "https://www.idbi.bank.in/horticulture-forestry-development-loans.aspx",
+      "file": "horticulture-forestry-development-loans-aspx_3a05a7dc.json",
+      "category": "loans",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/iba.aspx",
+      "file": "iba-aspx_b1b52550.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/how-do-i.aspx",
+      "file": "how-do-i-aspx_c4021308.json",
+      "category": "corporate",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-about-us.aspx",
+      "file": "idbi-bank-about-us-aspx_96b6579e.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-asba-ipo-payment-option.aspx",
+      "file": "idbi-asba-ipo-payment-option-aspx_988a9848.json",
+      "category": "corporate",
+      "page_type": "product_info"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-account-alerts-type.aspx",
+      "file": "idbi-bank-account-alerts-type-aspx_c6842035.json",
+      "category": "corporate",
+      "page_type": "calculator"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-analyst-presentation.aspx",
+      "file": "idbi-bank-analyst-presentation-aspx_c08ff505.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-account-alerts.aspx",
+      "file": "idbi-bank-account-alerts-aspx_88579255.json",
+      "category": "corporate",
+      "page_type": "forms"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-account-alerts-who-can-apply.aspx",
+      "file": "idbi-bank-account-alerts-who-can-apply-aspx_26eca0d0.json",
+      "category": "corporate",
+      "page_type": "forms"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-bond-holders-space.aspx",
+      "file": "idbi-bank-bond-holders-space-aspx_27e47441.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-awards-and-accolades.aspx",
+      "file": "idbi-bank-awards-and-accolades-aspx_f197dad3.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-careers-contact-us.aspx",
+      "file": "idbi-bank-careers-contact-us-aspx_c93bcbaa.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-careers-current-openings-archive.aspx",
+      "file": "idbi-bank-careers-current-openings-archive-aspx_4600a670.json",
+      "category": "corporate",
+      "page_type": "forms"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-careers-current-result.aspx",
+      "file": "idbi-bank-careers-current-result-aspx_4df89558.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-careers.aspx",
+      "file": "idbi-bank-careers-aspx_1d525a8a.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-careers-current-openings.aspx",
+      "file": "idbi-bank-careers-current-openings-aspx_0009df65.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-customer-care-services.aspx",
+      "file": "idbi-bank-customer-care-services-aspx_e07a018b.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-customs-duty-payment.aspx",
+      "file": "idbi-bank-customs-duty-payment-aspx_209ce380.json",
+      "category": "corporate",
+      "page_type": "faq"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-foreign-currency.aspx",
+      "file": "idbi-bank-foreign-currency-aspx_8e435317.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-elite-plus-business-account.aspx",
+      "file": "idbi-bank-elite-plus-business-account-aspx_61d5254e.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-freedom-deposit.aspx",
+      "file": "idbi-bank-freedom-deposit-aspx_e649dc9b.json",
+      "category": "deposits",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-demat-account.aspx",
+      "file": "idbi-bank-demat-account-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-general-code-of-conduct-ethics.aspx",
+      "file": "idbi-bank-general-code-of-conduct-ethics-aspx_e276fa70.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-gold-debit-card-faq.aspx",
+      "file": "idbi-bank-gold-debit-card-faq-aspx_90a3118f.json",
+      "category": "investments",
+      "page_type": "faq"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-international-debit-cum-atm-card-faq.aspx",
+      "file": "idbi-bank-international-debit-cum-atm-card-faq-aspx_80c9d9f6.json",
+      "category": "corporate",
+      "page_type": "faq"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-internet-banking.aspx",
+      "file": "idbi-bank-internet-banking-aspx_583ee8e2.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-kids-card-faq.aspx",
+      "file": "idbi-bank-kids-card-faq-aspx_8a653b16.json",
+      "category": "corporate",
+      "page_type": "faq"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-investor.aspx",
+      "file": "idbi-bank-investor-aspx_73f8b693.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-mobile-banking-faq.aspx",
+      "file": "idbi-bank-mobile-banking-faq-aspx_730bd720.json",
+      "category": "corporate",
+      "page_type": "faq"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-mobile-banking-ussd.aspx",
+      "file": "idbi-bank-mobile-banking-ussd-aspx_21eeb28e.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-policies-copyright.aspx",
+      "file": "idbi-bank-policies-copyright-aspx_35e1688c.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-phone-banking-no.aspx",
+      "file": "idbi-bank-phone-banking-no-aspx_30897a5f.json",
+      "category": "corporate",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-online-nach-mandate-cancellation.aspx",
+      "file": "idbi-bank-online-nach-mandate-cancellation-aspx_ec90d43d.json",
+      "category": "digital_banking",
+      "page_type": "calculator"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-platinum-debit-card-faq.aspx",
+      "file": "idbi-bank-platinum-debit-card-faq-aspx_a9907345.json",
+      "category": "corporate",
+      "page_type": "faq"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-policies-hyperlink.aspx",
+      "file": "idbi-bank-policies-hyperlink-aspx_b7b2cd8a.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-policies.aspx",
+      "file": "idbi-bank-policies-aspx_96551901.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-rinn-samadhan-scheme.aspx",
+      "file": "idbi-bank-rinn-samadhan-scheme-aspx_5d2c8208.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-sugam-rinn-bhugtan-yojana.aspx",
+      "file": "idbi-bank-sugam-rinn-bhugtan-yojana-aspx_7d81169c.json",
+      "category": "corporate",
+      "page_type": "product_info"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-statute.aspx",
+      "file": "idbi-bank-statute-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-soft-token.aspx",
+      "file": "idbi-bank-soft-token-aspx_6dec62fa.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-suvidha-fixed-deposit.aspx",
+      "file": "idbi-bank-suvidha-fixed-deposit-aspx_e649dc9b.json",
+      "category": "deposits",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-world-global-currency-card-faq.aspx",
+      "file": "idbi-bank-world-global-currency-card-faq-aspx_4285b1c3.json",
+      "category": "corporate",
+      "page_type": "faq"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-carbon-development.aspx",
+      "file": "idbi-carbon-development-aspx_f9f1582d.json",
+      "category": "corporate",
+      "page_type": "calculator"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-harvesting-and-transport-loan.aspx",
+      "file": "idbi-harvesting-and-transport-loan-aspx_7c0e7aa0.json",
+      "category": "loans",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-equipment-finance.aspx",
+      "file": "idbi-equipment-finance-aspx_2fc932ba.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-loan-for-service-sector.aspx",
+      "file": "idbi-loan-for-service-sector-aspx_232025d5.json",
+      "category": "loans",
+      "page_type": "calculator"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-mudra-loan.aspx",
+      "file": "idbi-mudra-loan-aspx_414b195b.json",
+      "category": "loans",
+      "page_type": "calculator"
+    },
+    {
+      "url": "https://www.idbi.bank.in/indian-army-salary-account.aspx",
+      "file": "indian-army-salary-account-aspx_05c13d75.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-group.aspx",
+      "file": "idbi-group-aspx_78960793.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/index.aspx",
+      "file": "index-aspx_28a46807.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/indian-navy-salary-account.aspx",
+      "file": "indian-navy-salary-account-aspx_ac18469c.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/information-security.aspx",
+      "file": "information-security-aspx_e0321932.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/informative-videos.aspx",
+      "file": "informative-videos-aspx_6ed70f69.json",
+      "category": "corporate",
+      "page_type": "product_info"
+    },
+    {
+      "url": "https://www.idbi.bank.in/investment-advisory.aspx",
+      "file": "investment-advisory-aspx_e3b0c442.json",
+      "category": "investments",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/kisan-all-purpose-term-loan.aspx",
+      "file": "kisan-all-purpose-term-loan-aspx_59e97878.json",
+      "category": "loans",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/jus_tab.aspx",
+      "file": "jus_tab-aspx_d24deceb.json",
+      "category": "corporate",
+      "page_type": "contact"
+    },
+    {
+      "url": "https://www.idbi.bank.in/land-development.aspx",
+      "file": "land-development-aspx_f416aa4c.json",
+      "category": "corporate",
+      "page_type": "product_info"
+    },
+    {
+      "url": "https://www.idbi.bank.in/krishi-unnati-financing-to-fpc-fpos.aspx",
+      "file": "krishi-unnati-financing-to-fpc-fpos-aspx_55b3dddf.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/interest-rates.aspx",
+      "file": "interest-rates-aspx_49d60e51.json",
+      "category": "corporate",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/lending-to-commercial-real-estate-sector.aspx",
+      "file": "lending-to-commercial-real-estate-sector-aspx_5c737a54.json",
+      "category": "loans",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/lending-to-nbfc-hfc.aspx",
+      "file": "lending-to-nbfc-hfc-aspx_eb6c0c40.json",
+      "category": "loans",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/letters-of-credit.aspx",
+      "file": "letters-of-credit-aspx_36f1f958.json",
+      "category": "loans",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/loan-against-rent-receivable.aspx",
+      "file": "loan-against-rent-receivable-aspx_11eb5ab6.json",
+      "category": "loans",
+      "page_type": "calculator"
+    },
+    {
+      "url": "https://www.idbi.bank.in/loan-against-securities.aspx",
+      "file": "loan-against-securities-aspx_78df47cf.json",
+      "category": "loans",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/loan-against-property.aspx",
+      "file": "loan-against-property-aspx_c94a25a4.json",
+      "category": "loans",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/lic-co-branded-credit-cards.aspx",
+      "file": "lic-co-branded-credit-cards-aspx_a957ec30.json",
+      "category": "loans",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/loans-for-storage-facilities.aspx",
+      "file": "loans-for-storage-facilities-aspx_6bfbc473.json",
+      "category": "loans",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/loss-of-bond-notices.aspx",
+      "file": "loss-of-bond-notices-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/mPassbook.aspx",
+      "file": "mpassbook-aspx_b2a51371.json",
+      "category": "corporate",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/main-disclaimer.aspx",
+      "file": "main-disclaimer-aspx_0e79b2c3.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/mastercard-platinum-debit-card.aspx",
+      "file": "mastercard-platinum-debit-card-aspx_d06b03be.json",
+      "category": "corporate",
+      "page_type": "product_info"
+    },
+    {
+      "url": "https://www.idbi.bank.in/media-coverage.aspx",
+      "file": "media-coverage-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/mastercard_gold-debit-card.aspx",
+      "file": "mastercard_gold-debit-card-aspx_4e4ce3bb.json",
+      "category": "investments",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/mastercard_classic-debit-card.aspx",
+      "file": "mastercard_classic-debit-card-aspx_9300f15f.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/merchantrates.aspx",
+      "file": "merchantrates-aspx_8a4a0d00.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/micro-loan.aspx",
+      "file": "micro-loan-aspx_3fecee01.json",
+      "category": "loans",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/minor-lift-irrigation.aspx",
+      "file": "minor-lift-irrigation-aspx_9ac1a101.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/msme-banking.aspx",
+      "file": "msme-banking-aspx_c86365e2.json",
+      "category": "corporate",
+      "page_type": "forms"
+    },
+    {
+      "url": "https://www.idbi.bank.in/msme.aspx",
+      "file": "msme-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/naman-senior-citizen-deposits.aspx",
+      "file": "naman-senior-citizen-deposits-aspx_e3b0c442.json",
+      "category": "deposits",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/msme-finance.aspx",
+      "file": "msme-finance-aspx_87da89cd.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/new-pension.aspx",
+      "file": "new-pension-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/notice-to-sb-ca-od-account-customer-corp.aspx",
+      "file": "notice-to-sb-ca-od-account-customer-corp-aspx_afb3d7b9.json",
+      "category": "corporate",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/notice-of-board-meeting.aspx",
+      "file": "notice-of-board-meeting-aspx_0a90aca2.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/notice_to_customers.aspx",
+      "file": "notice_to_customers-aspx_b1d728a9.json",
+      "category": "corporate",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/notices-tender-awards.aspx",
+      "file": "notices-tender-awards-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/nps-aboutus.aspx",
+      "file": "nps-aboutus-aspx_2428a153.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/nps-branches.aspx",
+      "file": "nps-branches-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/nps-corporatesector.aspx",
+      "file": "nps-corporatesector-aspx_49c98a10.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/nps-fees.aspx",
+      "file": "nps-fees-aspx_e35302ee.json",
+      "category": "corporate",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/nps-subscribe.aspx",
+      "file": "nps-subscribe-aspx_0f9e8dbc.json",
+      "category": "corporate",
+      "page_type": "forms"
+    },
+    {
+      "url": "https://www.idbi.bank.in/nps-salientfeatures.aspx",
+      "file": "nps-salientfeatures-aspx_b0db48c5.json",
+      "category": "corporate",
+      "page_type": "product_info"
+    },
+    {
+      "url": "https://www.idbi.bank.in/nps-swavalambhanscheme.aspx",
+      "file": "nps-swavalambhanscheme-aspx_503fd30a.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/nre-account.aspx",
+      "file": "nre-account-aspx_4e3614b5.json",
+      "category": "nri",
+      "page_type": "calculator"
+    },
+    {
+      "url": "https://www.idbi.bank.in/nri-banking.aspx",
+      "file": "nri-banking-aspx_e3b0c442.json",
+      "category": "nri",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/nri-interest-rates.aspx",
+      "file": "nri-interest-rates-aspx_9aed0f2f.json",
+      "category": "nri",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/nse-rating-change.aspx",
+      "file": "nse-rating-change-aspx_0a90aca2.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/packing-credit.aspx",
+      "file": "packing-credit-aspx_ac7f3065.json",
+      "category": "loans",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/open-offer.aspx",
+      "file": "open-offer-aspx_0a90aca2.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/nro-account.aspx",
+      "file": "nro-account-aspx_6dc6168e.json",
+      "category": "nri",
+      "page_type": "calculator"
+    },
+    {
+      "url": "https://www.idbi.bank.in/nri-newsletter.aspx",
+      "file": "nri-newsletter-aspx_e3b0c442.json",
+      "category": "nri",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/pay-online.aspx",
+      "file": "pay-online-aspx_38dab60e.json",
+      "category": "digital_banking",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/pension-saving-account.aspx",
+      "file": "pension-saving-account-aspx_f84beeee.json",
+      "category": "corporate",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/personal-loan.aspx",
+      "file": "personal-loan-aspx_632595ee.json",
+      "category": "loans",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/platinum-salary-account.aspx",
+      "file": "platinum-salary-account-aspx_8192d2ad.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/pension.aspx",
+      "file": "pension-aspx_6cd2901b.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/platinum-debit-card.aspx",
+      "file": "platinum-debit-card-aspx_748342ad.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/pm-svanidhi.aspx",
+      "file": "pm-svanidhi-aspx_a5fea918.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/poultry-farming.aspx",
+      "file": "poultry-farming-aspx_0993742d.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/policy-circulars.aspx",
+      "file": "policy-circulars-aspx_e3b0c442.json",
+      "category": "insurance",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/powerplus-account.aspx",
+      "file": "powerplus-account-aspx_cd9b206b.json",
+      "category": "corporate",
+      "page_type": "product_info"
+    },
+    {
+      "url": "https://www.idbi.bank.in/pradhan-mantri-awas-yojana.aspx",
+      "file": "pradhan-mantri-awas-yojana-aspx_0a7bc552.json",
+      "category": "corporate",
+      "page_type": "calculator"
+    },
+    {
+      "url": "https://www.idbi.bank.in/portfolio-investment-scheme.aspx",
+      "file": "portfolio-investment-scheme-aspx_ac60bd83.json",
+      "category": "investments",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/pradhan-mantri-jan-dhan-yojana.aspx",
+      "file": "pradhan-mantri-jan-dhan-yojana-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/pradhan-mantri-jan-dhan-yojana-life-insurance.aspx",
+      "file": "pradhan-mantri-jan-dhan-yojana-life-insurance-aspx_e3b0c442.json",
+      "category": "insurance",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/preferred-account.aspx",
+      "file": "preferred-account-aspx_70a4f32c.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/preferred-banking.aspx",
+      "file": "preferred-banking-aspx_de95bc35.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/prepaid-card-offers.aspx",
+      "file": "prepaid-card-offers-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/prepaid-card.aspx",
+      "file": "prepaid-card-aspx_b3c7e06b.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/pride-salary-account.aspx",
+      "file": "pride-salary-account-aspx_81d88de9.json",
+      "category": "corporate",
+      "page_type": "product_info"
+    },
+    {
+      "url": "https://www.idbi.bank.in/property-power.aspx",
+      "file": "property-power-aspx_162e049e.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/purchase-of-bullock-carts.aspx",
+      "file": "purchase-of-bullock-carts-aspx_6f0797f2.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/purchase-of-land.aspx",
+      "file": "purchase-of-land-aspx_8d157323.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/quarterly-returns-to-CIC.aspx",
+      "file": "quarterly-returns-to-cic-aspx_e63f5c3d.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/rbi.aspx",
+      "file": "rbi-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/receivable-buyout-with-recourse.aspx",
+      "file": "receivable-buyout-with-recourse-aspx_2b3fb793.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/recurring-deposit.aspx",
+      "file": "recurring-deposit-aspx_f80dd326.json",
+      "category": "deposits",
+      "page_type": "product_info"
+    },
+    {
+      "url": "https://www.idbi.bank.in/re-vkyc.aspx",
+      "file": "re-vkyc-aspx_5916875a.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/regulatory-disclosures-bcsbi.aspx",
+      "file": "regulatory-disclosures-bcsbi-aspx_64867270.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/regulatory-disclosures-section.aspx",
+      "file": "regulatory-disclosures-section-aspx_810c9b34.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/reservation-roster-details-clerical.aspx",
+      "file": "reservation-roster-details-clerical-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/reservation-roster-details-promotions.aspx",
+      "file": "reservation-roster-details-promotions-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/reservation-roster-details-subordinate.aspx",
+      "file": "reservation-roster-details-subordinate-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/reservation-roster-details.aspx",
+      "file": "reservation-roster-details-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/reservation-roster-details-pwd.aspx",
+      "file": "reservation-roster-details-pwd-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/retail-direct-scheme.aspx",
+      "file": "retail-direct-scheme-aspx_e569fd4e.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/riact-data-1.aspx",
+      "file": "riact-data-1-aspx_8b7fec98.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/riact-data-11.aspx",
+      "file": "riact-data-11-aspx_ec75627b.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/reverse-mortgage-loan.aspx",
+      "file": "reverse-mortgage-loan-aspx_4549b6a8.json",
+      "category": "loans",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/riact-data-10.aspx",
+      "file": "riact-data-10-aspx_70da32e9.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/riact-data-13.aspx",
+      "file": "riact-data-13-aspx_002e54e7.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/riact-data-14.aspx",
+      "file": "riact-data-14-aspx_72852b31.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/riact-data-16.aspx",
+      "file": "riact-data-16-aspx_927b5b99.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/riact-data-15.aspx",
+      "file": "riact-data-15-aspx_a63706c6.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/riact-data-12.aspx",
+      "file": "riact-data-12-aspx_fe2b83c4.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/riact-data-2.aspx",
+      "file": "riact-data-2-aspx_7fe25f22.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/riact-data-5.aspx",
+      "file": "riact-data-5-aspx_743f1dcd.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/riact-data-4.aspx",
+      "file": "riact-data-4-aspx_0d3c2562.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/riact-data-17.aspx",
+      "file": "riact-data-17-aspx_4e9e7d58.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/riact-data-3.aspx",
+      "file": "riact-data-3-aspx_69e4483f.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/riact-data-6.aspx",
+      "file": "riact-data-6-aspx_96175367.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/riact-data-7.aspx",
+      "file": "riact-data-7-aspx_cc31f44b.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/royal-credit-card.aspx",
+      "file": "royal-credit-card-aspx_7da2ef20.json",
+      "category": "loans",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/royal-account.aspx",
+      "file": "royal-account-aspx_b194348b.json",
+      "category": "corporate",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/rti.aspx",
+      "file": "rti-aspx_c5e54a9e.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/riact-data-8.aspx",
+      "file": "riact-data-8-aspx_10faa299.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/rupay-kisan-debit-card.aspx",
+      "file": "rupay-kisan-debit-card-aspx_15079d82.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/rupay-classic-debit-card.aspx",
+      "file": "rupay-classic-debit-card-aspx_fd3b124e.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/rupay-mudra-debit-card.aspx",
+      "file": "rupay-mudra-debit-card-aspx_529496f9.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/rupay-platinum-chip-debit-card.aspx",
+      "file": "rupay-platinum-chip-debit-card-aspx_c045ac5c.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/rupay-select-opulentia-ncmc-debit-card.aspx",
+      "file": "rupay-select-opulentia-ncmc-debit-card-aspx_fda1fc82.json",
+      "category": "corporate",
+      "page_type": "product_info"
+    },
+    {
+      "url": "https://www.idbi.bank.in/rupay-pmjdy-debit-card.aspx",
+      "file": "rupay-pmjdy-debit-card-aspx_ce78e110.json",
+      "category": "corporate",
+      "page_type": "calculator"
+    },
+    {
+      "url": "https://www.idbi.bank.in/rupay_classic_NCMC_debit-card.aspx",
+      "file": "rupay_classic_ncmc_debit-card-aspx_c12d6655.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/rupay-women-debit-card.aspx",
+      "file": "rupay-women-debit-card-aspx_8ce89a94.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/rupay_platinum_NCMC_debit-card.aspx",
+      "file": "rupay_platinum_ncmc_debit-card-aspx_1cc7cf49.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/rupey-kids-debit-card.aspx",
+      "file": "rupey-kids-debit-card-aspx_e3a41145.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/sanjeevani-express.aspx",
+      "file": "sanjeevani-express-aspx_beaf23c0.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/sabka-basic-saving-account.aspx",
+      "file": "sabka-basic-saving-account-aspx_9bf4f958.json",
+      "category": "corporate",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/salary-accounts.aspx",
+      "file": "salary-accounts-aspx_8e56dabc.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/scheme-for-agri-clinics.aspx",
+      "file": "scheme-for-agri-clinics-aspx_f07a6180.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/sericulture.aspx",
+      "file": "sericulture-aspx_aad049ac.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/screen_reader_access.aspx",
+      "file": "screen_reader_access-aspx_6ce55c34.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/secretarial-disclosures.aspx",
+      "file": "secretarial-disclosures-aspx_278a7087.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/section-4(1).aspx",
+      "file": "section-4-1--aspx_f5836859.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/service-charges.aspx",
+      "file": "service-charges-aspx_01a5a82e.json",
+      "category": "corporate",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/shareholding-pattern.aspx",
+      "file": "shareholding-pattern-aspx_0a90aca2.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/sheep-and-goat-rearing.aspx",
+      "file": "sheep-and-goat-rearing-aspx_187c2749.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/short-term-loan.aspx",
+      "file": "short-term-loan-aspx_bc8d8787.json",
+      "category": "loans",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/silver-salary-account.aspx",
+      "file": "silver-salary-account-aspx_8c614283.json",
+      "category": "corporate",
+      "page_type": "product_info"
+    },
+    {
+      "url": "https://www.idbi.bank.in/signature_debit_card.aspx",
+      "file": "signature_debit_card-aspx_cbb8354a.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/sitemap.aspx",
+      "file": "sitemap-aspx_9301b206.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/small-road-water-transport-operators.aspx",
+      "file": "small-road-water-transport-operators-aspx_735ba1ea.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/small-relaxed-kyc-saving-account.aspx",
+      "file": "small-relaxed-kyc-saving-account-aspx_b37f1afb.json",
+      "category": "corporate",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/small-savings-schemes.aspx",
+      "file": "small-savings-schemes-aspx_96459bd9.json",
+      "category": "deposits",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/smart-odr.aspx",
+      "file": "smart-odr-aspx_98394f06.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/socialsecurityschemes.aspx",
+      "file": "socialsecurityschemes-aspx_3baaaf5b.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/stand-up-india.aspx",
+      "file": "stand-up-india-aspx_71063165.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/sulabh-vyapar-business.aspx",
+      "file": "sulabh-vyapar-business-aspx_d510c282.json",
+      "category": "corporate",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/sovereign-gold-bond.aspx",
+      "file": "sovereign-gold-bond-aspx_7292cd18.json",
+      "category": "investments",
+      "page_type": "product_info"
+    },
+    {
+      "url": "https://www.idbi.bank.in/syndication-and-advisory-services.aspx",
+      "file": "syndication-and-advisory-services-aspx_83d50f3d.json",
+      "category": "corporate",
+      "page_type": "calculator"
+    },
+    {
+      "url": "https://www.idbi.bank.in/suvidha-tax-saving-fixed-deposit.aspx",
+      "file": "suvidha-tax-saving-fixed-deposit-aspx_8c28365a.json",
+      "category": "deposits",
+      "page_type": "product_info"
+    },
+    {
+      "url": "https://www.idbi.bank.in/tax-payments.aspx",
+      "file": "tax-payments-aspx_e3b0c442.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/tatement-of-deviation-variation.aspx",
+      "file": "tatement-of-deviation-variation-aspx_0a90aca2.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/tender-fixed-deposit.aspx",
+      "file": "tender-fixed-deposit-aspx_06143fce.json",
+      "category": "deposits",
+      "page_type": "product_info"
+    },
+    {
+      "url": "https://www.idbi.bank.in/term-loan.aspx",
+      "file": "term-loan-aspx_6be1e0fa.json",
+      "category": "loans",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/term-deposit-calculator.aspx",
+      "file": "term-deposit-calculator-aspx_e3b0c442.json",
+      "category": "deposits",
+      "page_type": "calculator"
+    },
+    {
+      "url": "https://www.idbi.bank.in/tradefinance-bankguarantee.aspx",
+      "file": "tradefinance-bankguarantee-aspx_0f550c76.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/tradefinance-billdiscounting.aspx",
+      "file": "tradefinance-billdiscounting-aspx_7d6c5554.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/tradefinance-doc-collection.aspx",
+      "file": "tradefinance-doc-collection-aspx_f0bc5fc6.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/trade-applications.aspx",
+      "file": "trade-applications-aspx_7449490c.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/tradefinance-electronic-bank-guarantee.aspx",
+      "file": "tradefinance-electronic-bank-guarantee-aspx_832af134.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/tradefinance-letterofcredit.aspx",
+      "file": "tradefinance-letterofcredit-aspx_e0c16946.json",
+      "category": "loans",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/tradefinance-forwardcontract.aspx",
+      "file": "tradefinance-forwardcontract-aspx_bd25248c.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/tradefinance-postshipment.aspx",
+      "file": "tradefinance-postshipment-aspx_e6423c90.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/tradefinance-preshipment.aspx",
+      "file": "tradefinance-preshipment-aspx_a6c716db.json",
+      "category": "corporate",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/tradefinance-remittances.aspx",
+      "file": "tradefinance-remittances-aspx_0f8682a4.json",
+      "category": "corporate",
+      "page_type": "calculator"
+    },
+    {
+      "url": "https://www.idbi.bank.in/tradefinance-tradeadvisoryservices.aspx",
+      "file": "tradefinance-tradeadvisoryservices-aspx_673fa500.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/transparency-officer.aspx",
+      "file": "transparency-officer-aspx_d5e18170.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/treasury-call-notice-term-money.aspx",
+      "file": "treasury-call-notice-term-money-aspx_f0499b56.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/treasury-bills.aspx",
+      "file": "treasury-bills-aspx_b1213237.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/treasury-certificate-of-deposits.aspx",
+      "file": "treasury-certificate-of-deposits-aspx_51c3f958.json",
+      "category": "deposits",
+      "page_type": "calculator"
+    },
+    {
+      "url": "https://www.idbi.bank.in/transcripts-of-analystinvestorsconcall.aspx",
+      "file": "transcripts-of-analystinvestorsconcall-aspx_0a90aca2.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/treasury-commercial-papers.aspx",
+      "file": "treasury-commercial-papers-aspx_3241a6ed.json",
+      "category": "corporate",
+      "page_type": "calculator"
+    },
+    {
+      "url": "https://www.idbi.bank.in/treasury-currency-exchange.aspx",
+      "file": "treasury-currency-exchange-aspx_29ea25a5.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/treasury-corporate-bonds.aspx",
+      "file": "treasury-corporate-bonds-aspx_05274a41.json",
+      "category": "corporate",
+      "page_type": "calculator"
+    },
+    {
+      "url": "https://www.idbi.bank.in/treasury-currency-options.aspx",
+      "file": "treasury-currency-options-aspx_3bf3a182.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/treasury-fra.aspx",
+      "file": "treasury-fra-aspx_42b7cc2d.json",
+      "category": "corporate",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/treasury-currency-forward-contracts.aspx",
+      "file": "treasury-currency-forward-contracts-aspx_be9ef32b.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/treasury-exchange-traded-derivative-contracts.aspx",
+      "file": "treasury-exchange-traded-derivative-contracts-aspx_26279b8f.json",
+      "category": "corporate",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/treasury-government-securities.aspx",
+      "file": "treasury-government-securities-aspx_f56c8a3b.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/treasury-equities.aspx",
+      "file": "treasury-equities-aspx_5ee26d8c.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/treasury-ltfx.aspx",
+      "file": "treasury-ltfx-aspx_de6d0e84.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/tufs-textile-jute-industries.aspx",
+      "file": "tufs-textile-jute-industries-aspx_55924ddb.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/treasury-swaps.aspx",
+      "file": "treasury-swaps-aspx_c84592a2.json",
+      "category": "corporate",
+      "page_type": "product_info"
+    },
+    {
+      "url": "https://www.idbi.bank.in/treasury-remittances.aspx",
+      "file": "treasury-remittances-aspx_885f8b96.json",
+      "category": "corporate",
+      "page_type": "calculator"
+    },
+    {
+      "url": "https://www.idbi.bank.in/umang-business-account-for-metro-urban-locations.aspx",
+      "file": "umang-business-account-for-metro-urban-locations-aspx_68ab92bb.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/unnati-business-account-for-semi-urban-locations.aspx",
+      "file": "unnati-business-account-for-semi-urban-locations-aspx_68ab92bb.json",
+      "category": "corporate",
+      "page_type": "calculator"
+    },
+    {
+      "url": "https://www.idbi.bank.in/vasundhara-green-deposit.aspx",
+      "file": "vasundhara-green-deposit-aspx_f1b46245.json",
+      "category": "deposits",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/utility-bill-payment.aspx",
+      "file": "utility-bill-payment-aspx_91c9c842.json",
+      "category": "corporate",
+      "page_type": "rates"
+    },
+    {
+      "url": "https://www.idbi.bank.in/vigilance-mechanism-notice.aspx",
+      "file": "vigilance-mechanism-notice-aspx_91108583.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/vigilance-mechanism.aspx",
+      "file": "vigilance-mechanism-aspx_a7f777ed.json",
+      "category": "corporate",
+      "page_type": "contact"
+    },
+    {
+      "url": "https://www.idbi.bank.in/visa-business-debit-card.aspx",
+      "file": "visa-business-debit-card-aspx_f1007197.json",
+      "category": "corporate",
+      "page_type": "product_info"
+    },
+    {
+      "url": "https://www.idbi.bank.in/visa-kids-paywave-debit-card.aspx",
+      "file": "visa-kids-paywave-debit-card-aspx_03a4d096.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/visa-women-paywave-debit-card.aspx",
+      "file": "visa-women-paywave-debit-card-aspx_e96c4a09.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/vkyc.aspx",
+      "file": "vkyc-aspx_568e140c.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/warehouse-receipt-finance-scheme.aspx",
+      "file": "warehouse-receipt-finance-scheme-aspx_476bdb67.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/whatsApp_banking.aspx",
+      "file": "whatsapp_banking-aspx_78110d9c.json",
+      "category": "corporate",
+      "page_type": "general"
+    },
+    {
+      "url": "https://www.idbi.bank.in/world-global-currency-card.aspx",
+      "file": "world-global-currency-card-aspx_ec25fecb.json",
+      "category": "corporate",
+      "page_type": "product_info"
+    }
+  ],
+  "failed_urls": [],
+  "skipped_urls": []
+}
