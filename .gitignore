@@ -1,2 +1,40 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Node
+node_modules/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local databases
+*.db
+
+# Project-specific
+.codegraph/
+skills-lock.json
+SECOND_BRAIN/
+Design_system/
+BRAINSTORMED/
+mobile_frame.png
+
+# Ignore all markdown except README
 *.md
 !README.md
