@@ -36,7 +36,7 @@ EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "BAAI/bge-small-en-v1.5")
 # Application Settings
 APP_NAME = os.getenv("APP_NAME", "IDBI AI Wealth Engine")
 APP_VERSION = os.getenv("APP_VERSION", "1.0.0")
-DEBUG = os.getenv("DEBUG", "True").lower() == "true"
+DEBUG = os.getenv("DEBUG", "False").lower() == "true"
 
 # LLM Settings
 MAX_TOKENS = 2048

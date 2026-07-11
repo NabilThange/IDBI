@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useSession } from '../context/SessionContext'
-import axios from 'axios'
+import apiClient from '@/lib/apiClient'
 import { 
   CaretRight as ChevronRight, CaretLeft as ChevronLeft, CheckCircle, Target, TrendUp as TrendingUp, 
   Shield, Sparkle as Sparkles, Question, Briefcase, Plus,
@@ -166,7 +166,7 @@ export default function GoalQuiz() {
           capacity_loss_tolerance: capacityLossTolerance
         }
       }
-      await axios.post('/api/quiz/submit', submission)
+      await apiClient.post('/api/quiz/submit', submission)
       navigate('/dashboard')
     } catch (error) {
       console.error('Error submitting quiz:', error)

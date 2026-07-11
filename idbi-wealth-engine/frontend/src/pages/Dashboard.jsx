@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
-import axios from 'axios'
+import apiClient from '@/lib/apiClient'
 import { Response } from '../components/ui/response'
 import { Gauge } from "../components/ui/charts/gauge"
 import { PieChart } from "../components/ui/charts/pie-chart"
@@ -298,7 +298,7 @@ export default function Dashboard() {
 
   const fetchProfiles = async () => {
     try {
-      const res = await axios.get('/api/profiles')
+      const res = await apiClient.get('/api/profiles')
       setProfiles(res.data.profiles || res.data)
     } catch (err) {
       console.error('Error fetching profiles:', err)
@@ -310,11 +310,11 @@ export default function Dashboard() {
     setError(null)
     try {
       // 1. Select session
-      const selRes = await axios.post('/api/session/select', { profile_id: profileId })
+      const selRes = await apiClient.post('/api/session/select', { profile_id: profileId })
       const session_id = selRes.data.session_id
 
       // 2. Fetch current profile
-      const profRes = await axios.get(`/api/session/current/${session_id}`)
+      const profRes = await apiClient.get(`/api/session/current/${session_id}`)
       const profData = profRes.data.profile || profRes.data
       setProfile(profData)
       setGoals(profData.goals || [])
@@ -325,7 +325,7 @@ export default function Dashboard() {
 
       // Fetch quiz status
       try {
-        const statusRes = await axios.get(`/api/quiz/status?session_id=${profileId}`)
+        const statusRes = await apiClient.get(`/api/quiz/status?session_id=${profileId}`)
         setQuizStatus(statusRes.data)
       } catch (quizErr) {
         console.error('Error fetching quiz status:', quizErr)
@@ -334,7 +334,7 @@ export default function Dashboard() {
 
       // Fetch financial health
       try {
-        const healthRes = await axios.get(`/api/financial-health?session_id=${profileId}`)
+        const healthRes = await apiClient.get(`/api/financial-health?session_id=${profileId}`)
         setHealthData(healthRes.data)
       } catch (healthErr) {
         console.error('Error fetching financial health:', healthErr)
@@ -342,15 +342,15 @@ export default function Dashboard() {
       }
 
       // 3. Fetch spending analysis
-      const spendRes = await axios.get(`/api/spending-analysis?session_id=${profileId}`)
+      const spendRes = await apiClient.get(`/api/spending-analysis?session_id=${profileId}`)
       setSpendAnalysis(spendRes.data)
 
       // 4. Fetch recommendations
-      const recRes = await axios.get(`/api/recommendations?session_id=${profileId}`)
+      const recRes = await apiClient.get(`/api/recommendations?session_id=${profileId}`)
       setRecommendations(recRes.data)
 
       // 5. Fetch insights
-      const insRes = await axios.get(`/api/wealth-insights?session_id=${profileId}`)
+      const insRes = await apiClient.get(`/api/wealth-insights?session_id=${profileId}`)
       setInsights(insRes.data.insights || insRes.data)
 
       // Reset Simulator
@@ -442,7 +442,7 @@ export default function Dashboard() {
 
   const triggerRmLead = async (rec) => {
     try {
-      await axios.post(`/api/recommendations/lead?session_id=${activeProfileId}`, {
+      await apiClient.post(`/api/recommendations/lead?session_id=${activeProfileId}`, {
         product_name: rec.product_name,
         product_type: rec.product_type,
         recommended_amount: rec.recommended_amount,

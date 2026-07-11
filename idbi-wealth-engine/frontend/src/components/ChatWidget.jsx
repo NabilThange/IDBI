@@ -5,7 +5,7 @@ import {
   Chat as MessageSquare, Trash as Trash2, CornersOut as Maximize2, CornersIn as Minimize2,
   Waveform as AudioLines, ArrowRight, CaretDown as ChevronDown, X, DotsSix as GripHorizontal
 } from '@phosphor-icons/react'
-import axios from 'axios'
+import apiClient from '@/lib/apiClient'
 import ReactMarkdown from 'react-markdown'
 
 // ─── Language helpers ────────────────────────────────────────────────────────
@@ -102,7 +102,7 @@ export default function ChatWidget() {
 
   const fetchChatHistory = async () => {
     try {
-      const response = await axios.get(`/api/chat/history?session_id=${sessionId}`)
+      const response = await apiClient.get(`/api/chat/history?session_id=${sessionId}`)
       setChatHistory(response.data.messages || [])
     } catch (err) {
       console.error('Error fetching chat history:', err)
@@ -120,7 +120,7 @@ export default function ChatWidget() {
     setChatHistory(prev => [...prev, { role: 'user', content: userMsg }])
     setChatLoading(true)
     try {
-      const res = await axios.post('/api/chat', { 
+      const res = await apiClient.post('/api/chat', { 
         message: userMsg, 
         session_id: sessionId,
         language: chatLanguage
@@ -140,7 +140,7 @@ export default function ChatWidget() {
 
   const clearChat = async () => {
     try {
-      await axios.delete(`/api/chat/history?session_id=${sessionId}`)
+      await apiClient.delete(`/api/chat/history?session_id=${sessionId}`)
       setChatHistory([])
     } catch (err) {
       console.error(err)
@@ -159,7 +159,7 @@ export default function ChatWidget() {
       formData.append('language_code', getLanguageCode(lang))
       formData.append('speaker_gender',gender)
 
-      const response = await axios.post('/api/voice/greet', formData, {
+      const response = await apiClient.post('/api/voice/greet', formData, {
         headers: { 'Content-Type': 'multipart/form-data' }
       })
       const { greeting_text, audio } = response.data
@@ -269,7 +269,7 @@ export default function ChatWidget() {
       formData.append('language_code',  getLanguageCode(lang))
       formData.append('speaker_gender', profile?.gender === 'Female' ? 'Female' : 'Male')
 
-      const response = await axios.post('/api/voice/converse', formData, {
+      const response = await apiClient.post('/api/voice/converse', formData, {
         headers: { 'Content-Type': 'multipart/form-data' }
       })
       const { native_question, native_answer, audio } = response.data

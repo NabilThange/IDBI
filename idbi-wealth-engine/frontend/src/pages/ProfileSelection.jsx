@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useSession } from '../context/SessionContext'
-import axios from 'axios'
+import apiClient from '@/lib/apiClient'
 import { User, TrendUp as TrendingUp } from '@phosphor-icons/react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card'
 import { Button } from '../components/ui/button'
@@ -24,7 +24,7 @@ export default function ProfileSelection() {
   const fetchProfiles = async () => {
     setLoading(true)
     try {
-      const response = await axios.get('/api/profiles')
+      const response = await apiClient.get('/api/profiles')
       setProfiles(response.data)
     } catch (err) {
       setError(err.response?.data?.detail || 'Failed to load profiles')

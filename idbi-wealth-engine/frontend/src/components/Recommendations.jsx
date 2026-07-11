@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useSession } from '../context/SessionContext'
-import axios from 'axios'
+import apiClient from '@/lib/apiClient'
 import { ArrowClockwise as RefreshCw, BookOpen, WarningCircle as AlertCircle, Compass, CheckCircle as CheckCircle2, CaretRight as ChevronRight } from '@phosphor-icons/react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card'
 import { Button } from './ui/button'
@@ -29,7 +29,7 @@ export default function Recommendations() {
     setError(null)
 
     try {
-      const response = await axios.get(`/api/recommendations?session_id=${sessionId}&refresh=${refresh}`)
+      const response = await apiClient.get(`/api/recommendations?session_id=${sessionId}&refresh=${refresh}`)
       setData(response.data)
     } catch (err) {
       console.error('Error fetching recommendations:', err)

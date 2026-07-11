@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { useSession } from '../context/SessionContext'
-import axios from 'axios'
+import apiClient from '@/lib/apiClient'
 import { PaperPlaneRight as Send, X, Chat as MessageSquare, Trash as Trash2, Question as HelpCircle, Wrench, Sparkle as Sparkles, Terminal } from '@phosphor-icons/react'
 import { Button } from './ui/button'
 import { Badge } from './ui/badge'
@@ -24,7 +24,7 @@ export default function ChatBot({ isOpen, onClose }) {
   const fetchChatHistory = async () => {
     setLoading(true)
     try {
-      const response = await axios.get(`/api/chat/history?session_id=${sessionId}`)
+      const response = await apiClient.get(`/api/chat/history?session_id=${sessionId}`)
       setMessages(response.data.messages || [])
     } catch (err) {
       console.error('Error fetching chat history:', err)
@@ -61,7 +61,7 @@ export default function ChatBot({ isOpen, onClose }) {
     setSending(true)
 
     try {
-      const response = await axios.post('/api/chat', {
+      const response = await apiClient.post('/api/chat', {
         message: text,
         session_id: sessionId
       })
@@ -93,7 +93,7 @@ export default function ChatBot({ isOpen, onClose }) {
   const handleClearHistory = async () => {
     if (window.confirm('Are you sure you want to clear your conversation history?')) {
       try {
-        await axios.delete(`/api/chat/history?session_id=${sessionId}`)
+        await apiClient.delete(`/api/chat/history?session_id=${sessionId}`)
         setMessages([])
       } catch (err) {
         console.error('Error clearing chat history:', err)

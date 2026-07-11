@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useSession } from '../context/SessionContext'
-import axios from 'axios'
+import apiClient from '@/lib/apiClient'
 import { ResponsiveContainer, PieChart, Pie, Cell, Tooltip } from 'recharts'
 import { ArrowClockwise as RefreshCw, Warning as AlertTriangle, ArrowsDownUp as ArrowUpDown, ShoppingBag, CreditCard } from '@phosphor-icons/react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card'
@@ -34,7 +34,7 @@ export default function SpendingAnalysis() {
     setError(null)
 
     try {
-      const response = await axios.get(`/api/spending-analysis?session_id=${sessionId}&refresh=${refresh}`)
+      const response = await apiClient.get(`/api/spending-analysis?session_id=${sessionId}&refresh=${refresh}`)
       setData(response.data)
     } catch (err) {
       console.error('Error fetching spending analysis:', err)

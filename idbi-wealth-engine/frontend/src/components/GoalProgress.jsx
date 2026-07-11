@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useSession } from '../context/SessionContext'
-import axios from 'axios'
+import apiClient from '@/lib/apiClient'
 import { ArrowClockwise as RefreshCw, Target, WarningCircle as AlertCircle, CheckCircle as CheckCircle2, TrendUp as TrendingUp, Calendar } from '@phosphor-icons/react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card'
 import { Button } from './ui/button'
@@ -19,7 +19,7 @@ export default function GoalProgress() {
     setError(null)
 
     try {
-      const response = await axios.get(`/api/goal-progress?session_id=${sessionId}&refresh=${refresh}`)
+      const response = await apiClient.get(`/api/goal-progress?session_id=${sessionId}&refresh=${refresh}`)
       setData(response.data)
     } catch (err) {
       console.error('Error fetching goal progress:', err)

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useSession } from '../context/SessionContext'
-import axios from 'axios'
+import apiClient from '@/lib/apiClient'
 import { CheckCircle, WarningCircle as AlertCircle, ArrowClockwise as RefreshCw } from '@phosphor-icons/react'
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card'
 import { Button } from './ui/button'
@@ -17,7 +17,7 @@ export default function FinancialHealth() {
     else setLoading(true)
 
     try {
-      const response = await axios.get(`/api/financial-health?session_id=${sessionId}&refresh=${refresh}`)
+      const response = await apiClient.get(`/api/financial-health?session_id=${sessionId}&refresh=${refresh}`)
       setHealthData(response.data)
     } catch (error) {
       console.error('Error fetching financial health:', error)

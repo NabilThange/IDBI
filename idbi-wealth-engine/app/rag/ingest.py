@@ -298,5 +298,13 @@ def run_ingestion():
 
 
 if __name__ == "__main__":
-    # Run ingestion when script is executed directly
-    run_ingestion()
+    # Run ingestion when script is executed directly.
+    # Exit with a non-zero code on failure so CI/build steps (e.g. Render) fail loudly
+    # instead of silently shipping a broken/empty index.
+    import sys
+    try:
+        success = run_ingestion()
+    except Exception as e:
+        print(f"❌ Ingestion failed: {e}")
+        sys.exit(1)
+    sys.exit(0 if success else 1)

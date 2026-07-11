@@ -84,11 +84,16 @@ class QuizResponse(Base):
 
 # Database connection manager
 class Database:
-    def __init__(self, db_url='sqlite:///./idbi_wealth.db'):
-        # For Windows, sometimes we need the correct absolute path or let it write in workspace root
+    def __init__(self, db_url=None):
         import os
-        db_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'idbi_wealth.db')
-        self.engine = create_engine(f'sqlite:///{db_path}', echo=False)
+        # Use DATABASE_URL if provided (e.g. Render Postgres), else fall back to local SQLite.
+        if db_url is None:
+            db_url = os.getenv("DATABASE_URL", "sqlite:///./idbi_wealth.db")
+        # Render's Postgres URLs use the "postgres://" scheme, which SQLAlchemy cannot
+        # parse. Convert it to the "postgresql://" scheme SQLAlchemy expects.
+        if db_url.startswith("postgres://"):
+            db_url = db_url.replace("postgres://", "postgresql://", 1)
+        self.engine = create_engine(db_url, echo=False)
         self.SessionLocal = sessionmaker(bind=self.engine)
         
     def init_db(self):

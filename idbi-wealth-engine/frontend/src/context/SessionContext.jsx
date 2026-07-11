@@ -1,5 +1,5 @@
 import React, { createContext, useState, useContext, useEffect } from 'react'
-import axios from 'axios'
+import apiClient from '@/lib/apiClient'
 
 const SessionContext = createContext()
 
@@ -60,15 +60,15 @@ export const SessionProvider = ({ children }) => {
 
       try {
         // Try to get current session first — if it exists, we're good
-        await axios.get(`/api/session/current/${storedSessionId}`)
+        await apiClient.get(`/api/session/current/${storedSessionId}`)
       } catch (err) {
         if (err.response?.status === 404) {
           // Session lost (server restarted) — re-select the profile to restore it
           try {
-            const response = await axios.post('/api/session/select', {
+            const response = await apiClient.post('/api/session/select', {
               profile_id: storedSessionId
             })
-            const profileResponse = await axios.get(`/api/session/current/${response.data.session_id}`)
+            const profileResponse = await apiClient.get(`/api/session/current/${response.data.session_id}`)
             setProfile(profileResponse.data.profile || profileResponse.data)
             setSessionId(response.data.session_id)
           } catch (reactivateErr) {
@@ -89,13 +89,13 @@ export const SessionProvider = ({ children }) => {
     setLoading(true)
     setError(null)
     try {
-      const response = await axios.post('/api/session/select', {
+      const response = await apiClient.post('/api/session/select', {
         profile_id: profileId
       })
       
       setSessionId(response.data.session_id)
       
-      const profileResponse = await axios.get(`/api/session/current/${response.data.session_id}`)
+      const profileResponse = await apiClient.get(`/api/session/current/${response.data.session_id}`)
       setProfile(profileResponse.data.profile || profileResponse.data)
       
       return true
@@ -112,7 +112,7 @@ export const SessionProvider = ({ children }) => {
     if (!sessionId) return { quiz_completed: false, needs_refresh: true }
     
     try {
-      const response = await axios.get('/api/quiz/status', {
+      const response = await apiClient.get('/api/quiz/status', {
         params: { session_id: sessionId }
       })
       return response.data
@@ -125,7 +125,7 @@ export const SessionProvider = ({ children }) => {
   const clearSession = async () => {
     if (sessionId) {
       try {
-        await axios.delete(`/api/session/${sessionId}`)
+        await apiClient.delete(`/api/session/${sessionId}`)
       } catch (err) {
         console.error('Error clearing session:', err)
       }
