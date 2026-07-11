@@ -1,6 +1,7 @@
 # Core Framework
 fastapi==0.115.0
 uvicorn[standard]==0.32.0
+python-multipart==0.0.32  # required for FastAPI Form()/File() uploads (app/routers/voice.py /voice/converse)
 python-dotenv==1.0.1
 
 # LLM
