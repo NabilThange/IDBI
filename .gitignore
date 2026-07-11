@@ -27,6 +27,10 @@ Thumbs.db
 # Local databases
 *.db
 
+# Secrets & runtime artifacts
+generated_api_secret.txt
+*.pid
+
 # Project-specific
 .codegraph/
 skills-lock.json
