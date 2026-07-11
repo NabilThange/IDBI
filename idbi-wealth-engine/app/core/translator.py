@@ -111,7 +111,7 @@ class Translator:
                 f"Maintain the exact tone, numbers, currency symbols (₹), and structure. "
                 f"Only return the translated text without any explanations or introductory remarks."
             )
-            response = self.llm.chat(system_prompt=system_prompt, user_message=text)
+            response = self.llm.chat_with_system(system_prompt, text)
             return response.strip()
         except Exception:
             return text  # Fallback to original text on failure

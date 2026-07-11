@@ -117,7 +117,7 @@ async def get_system_info():
     """
     Get system information and configuration.
     """
-    from app.config import APP_NAME, APP_VERSION, GROQ_MODEL, EMBEDDING_MODEL, DEBUG
+    from app.config import AIMLAPI_MODEL, APP_NAME, APP_VERSION, EMBEDDING_MODEL, DEBUG
     from app.core.llm_client import llm_client
     
     return {
@@ -127,8 +127,8 @@ async def get_system_info():
             "debug_mode": DEBUG
         },
         "llm": {
-            "provider": "Groq",
-            "model": GROQ_MODEL,
+            "provider": "AIMLAPI",
+            "model": AIMLAPI_MODEL,
             "info": llm_client.get_usage_info()
         },
         "rag": {

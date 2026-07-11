@@ -14,7 +14,7 @@ def get_timestamp() -> str:
     return datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]
 
 
-# Tool definition for Groq
+# Tool definition for the OpenAI-compatible AIMLAPI endpoint
 TOOL_DEFINITION = {
     "type": "function",
     "function": {

@@ -216,7 +216,7 @@ DO NOT return any explanation or markdown formatting, return raw JSON string onl
             endpoint="/api/recommendations",
             recommendation=recs_json,
             reasoning=ai_recommendations.get('summary', ''),
-            model_version="groq-llama-3.1"
+            model_version="aimlapi-deepseek-v4-flash"
         )
         db_session.add(audit)
         db_session.commit()

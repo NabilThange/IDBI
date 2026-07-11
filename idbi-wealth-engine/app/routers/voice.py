@@ -1,6 +1,6 @@
 """
 Voice Conversation Router with Sarvam AI
-Complete pipeline: STT → Groq LLM → Translation → TTS
+Complete pipeline: STT → AIMLAPI LLM → Translation → TTS
 """
 
 import os
@@ -96,7 +96,7 @@ WEALTH_ADVISOR_SYSTEM_PROMPT = """You are the customer's personal wealth advisor
 
 Always double-check with a tool rather than guess. A short pause for an accurate answer beats a fast, wrong one."""
 
-# Tool definitions for Groq
+# Tool definitions for the OpenAI-compatible AIMLAPI endpoint
 TOOL_DEFINITIONS = [
     GET_PROFILE_DEF,
     GET_TRANSACTIONS_DEF,
@@ -115,7 +115,7 @@ async def voice_conversation(
     """
     Complete voice conversation pipeline:
     1. STT with translation to English (Sarvam Saaras v3)
-    2. Process through Groq LLM with tool calling
+    2. Process through AIMLAPI with tool calling
     3. Translate response to native language (Sarvam Mayura v1)
     4. Generate audio response (Sarvam Bulbul v3)
     
@@ -163,9 +163,9 @@ async def voice_conversation(
         stt_duration = time.time() - stt_start
         print(f"[{get_timestamp()}] [VOICE] STT completed in {stt_duration:.3f}s: \"{english_question}\"")
         
-        # ========== STEP 2: Process through Groq LLM ==========
-        print(f"[{get_timestamp()}] [VOICE] Step 2: Processing through Groq LLM")
-        groq_start = time.time()
+        # ========== STEP 2: Process through AIMLAPI ==========
+        print(f"[{get_timestamp()}] [VOICE] Step 2: Processing through AIMLAPI")
+        llm_start = time.time()
         
         # Get chat history
         history = session_store.get_chat_history(session_id, limit=10)
@@ -202,8 +202,8 @@ async def voice_conversation(
         tool_calls_made = result["tool_calls_made"]
         iterations = result["iterations"]
         
-        groq_duration = time.time() - groq_start
-        print(f"[{get_timestamp()}] [VOICE] Groq processing completed in {groq_duration:.3f}s ({iterations} iterations)")
+        llm_duration = time.time() - llm_start
+        print(f"[{get_timestamp()}] [VOICE] AIMLAPI processing completed in {llm_duration:.3f}s ({iterations} iterations)")
         
         # ========== STEP 3: Translate to Native Language ==========
         print(f"[{get_timestamp()}] [VOICE] Step 3: Translating to {language_code}")
@@ -279,7 +279,7 @@ async def voice_conversation(
                     "tool_calls": tool_calls_made
                 },
                 reasoning={"assistant_response": native_answer, "english_response": english_answer},
-                model_version="groq-llama-3.1+sarvam-ai"
+                model_version="aimlapi-deepseek-v4-flash+sarvam-ai"
             )
             db_session.add(audit)
             db_session.commit()
@@ -302,7 +302,7 @@ async def voice_conversation(
             "tool_calls_made": tool_calls_made,
             "processing_time": {
                 "stt": round(stt_duration, 3),
-                "llm": round(groq_duration, 3),
+                "llm": round(llm_duration, 3),
                 "translation": round(translation_duration, 3),
                 "tts": round(tts_duration, 3),
                 "total": round(total_duration, 3)

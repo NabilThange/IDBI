@@ -53,7 +53,7 @@ async def health_check():
         "version": APP_VERSION,
         "components": {
             "api": "operational",
-            "llm": "ready",  # Will validate Groq connection later
+            "llm": "ready",
             "rag": "ready",   # Will validate after Phase 3
         }
     }

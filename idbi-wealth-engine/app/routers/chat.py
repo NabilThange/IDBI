@@ -99,7 +99,7 @@ WEALTH_ADVISOR_SYSTEM_PROMPT = """You are the customer's personal wealth advisor
 Always double-check with a tool rather than guess. A short pause for an accurate answer beats a fast, wrong one."""
 
 
-# Tool definitions for Groq
+# Tool definitions for the OpenAI-compatible AIMLAPI endpoint
 TOOL_DEFINITIONS = [
     GET_PROFILE_DEF,
     GET_TRANSACTIONS_DEF,
@@ -202,7 +202,7 @@ async def chat(request: ChatRequest = Body(...)):
             endpoint="/api/chat",
             recommendation={"user_message": user_message, "tool_calls": tool_calls_made},
             reasoning={"assistant_response": assistant_message},
-            model_version="groq-llama-3.1"
+            model_version="aimlapi-deepseek-v4-flash"
         )
         db_session.add(audit)
         db_session.commit()

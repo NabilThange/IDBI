@@ -188,7 +188,7 @@ class TestVoiceConversation:
         # Step 1: Simulate STT result
         english_question = "What is my account balance?"
         
-        # Step 2: Simulate Groq response (this would be real LLM call)
+        # Step 2: Simulate the AIMLAPI response (this would be a real LLM call)
         english_answer = "Your current account balance is fifty thousand rupees."
         
         # Step 3: Translate to Hindi

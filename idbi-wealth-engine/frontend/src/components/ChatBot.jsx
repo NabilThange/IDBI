@@ -83,7 +83,7 @@ export default function ChatBot({ isOpen, onClose }) {
       console.error('Error in chat:', err)
       setMessages(prev => [...prev, { 
         role: 'assistant', 
-        content: 'Sorry, I encountered an error. Please verify your Groq API key and network connection.' 
+        content: 'Sorry, I encountered an error. Please verify your AI/ML API key and network connection.'
       }])
     } finally {
       setSending(false)

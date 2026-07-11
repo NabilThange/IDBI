@@ -25,12 +25,12 @@ CACHE_DIR.mkdir(exist_ok=True)
 RAG_INDEX_DIR.mkdir(parents=True, exist_ok=True)
 
 # API Configuration
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
-if not GROQ_API_KEY:
-    print("⚠️  WARNING: GROQ_API_KEY not set in environment variables")
+AIMLAPI_API_KEY = os.getenv("AIMLAPI_API_KEY", "")
+if not AIMLAPI_API_KEY:
+    print("⚠️  WARNING: AIMLAPI_API_KEY not set in environment variables")
 
 # Model Configuration
-GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.1-70b-versatile")
+AIMLAPI_MODEL = os.getenv("AIMLAPI_MODEL", "deepseek/deepseek-v4-flash")
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "BAAI/bge-small-en-v1.5")
 
 # Application Settings

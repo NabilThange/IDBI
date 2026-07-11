@@ -10,7 +10,7 @@ from datetime import datetime
 from app.core.session_store import session_store
 
 
-# Tool definition for Groq
+# Tool definition for the OpenAI-compatible AIMLAPI endpoint
 TOOL_DEFINITION = {
     "type": "function",
     "function": {
