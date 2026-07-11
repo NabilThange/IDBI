@@ -102,6 +102,9 @@ def search_idbi_knowledge(query: str, top_k: int = 5) -> Dict[str, Any]:
         if label and url and label != "Contact Us":  # ponytail: suppress generic CTAs
             action = {"label": label, "url": url}
             break
+
+    if not action and sources:
+        action = {"label": "View on IDBI Bank", "url": sources[0]["url"]}
     
     # Format results for LLM consumption
     formatted_results = []

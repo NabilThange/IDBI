@@ -65,7 +65,10 @@ from app.routers import session, financial_health, recommendations, insights, sp
 @app.on_event("startup")
 def startup_event():
     from app.core.database import db
+    from app.rag.ingest_crawl4ai import Crawl4AIIngester, has_metadata_index
     db.init_db()
+    if not has_metadata_index():
+        Crawl4AIIngester().run()
 
 app.include_router(session.router, prefix="/api", tags=["Session"], dependencies=[Depends(require_api_key)])
 app.include_router(quiz.router, prefix="/api", tags=["Quiz"], dependencies=[Depends(require_api_key)])

@@ -46,6 +46,16 @@ GENERIC_CTA_URLS = {
 CHUNK_OVERLAP = 50  # tokens overlap for context continuity
 
 
+def has_metadata_index() -> bool:
+    """Return whether the installed BM25 index can supply source links and CTAs."""
+    try:
+        with open(RAG_INDEX_DIR / "bm25_index.pkl", "rb") as f:
+            chunks = pickle.load(f).get("chunks", [])
+        return bool(chunks) and all("url" in chunk for chunk in chunks)
+    except (OSError, pickle.UnpicklingError, KeyError, AttributeError):
+        return False
+
+
 class Crawl4AIIngester:
     """Ingester for crawl4ai JSON output with rich metadata"""
     
@@ -378,6 +388,8 @@ class Crawl4AIIngester:
             if bm25_path.exists():
                 backup_path = RAG_INDEX_DIR / "bm25_index.pkl.old"
                 print(f"   📦 Backing up old index to {backup_path.name}")
+                if backup_path.exists():
+                    backup_path.unlink()
                 bm25_path.rename(backup_path)
             
             with open(bm25_path, 'wb') as f:

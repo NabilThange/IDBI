@@ -31,6 +31,8 @@ class ChatMessage(BaseModel):
     """Single chat message"""
     role: str  # user, assistant, system
     content: str
+    sources: Optional[List[dict]] = None
+    action: Optional[dict] = None
 
 
 class ChatRequest(BaseModel):
@@ -188,7 +190,9 @@ async def chat(request: ChatRequest = Body(...)):
     
     # Save to chat history
     session_store.add_chat_message(session_id, "user", user_message)
-    session_store.add_chat_message(session_id, "assistant", assistant_message)
+    session_store.add_chat_message(
+        session_id, "assistant", assistant_message, sources=rag_sources, action=rag_action
+    )
     
     # Write Audit Log
     db_session = db.get_session()
@@ -251,7 +255,10 @@ async def get_chat_history(
     
     # Remove timestamps for cleaner API response
     messages = [
-        ChatMessage(role=msg["role"], content=msg["content"])
+        ChatMessage(
+            role=msg["role"], content=msg["content"],
+            sources=msg.get("sources"), action=msg.get("action")
+        )
         for msg in history
     ]
     

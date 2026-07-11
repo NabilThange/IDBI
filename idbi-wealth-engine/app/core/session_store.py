@@ -14,7 +14,7 @@ class SessionStore:
         self._active_profiles: Dict[str, Dict[str, Any]] = {}
         
         # Store chat history: {session_id: [messages]}
-        self._chat_history: Dict[str, List[Dict[str, str]]] = {}
+        self._chat_history: Dict[str, List[Dict[str, Any]]] = {}
     
     def set_active_profile(self, session_id: str, profile_data: Dict[str, Any]) -> None:
         """
@@ -54,7 +54,7 @@ class SessionStore:
         """
         return self.get_active_profile(profile_id)
     
-    def add_chat_message(self, session_id: str, role: str, content: str) -> None:
+    def add_chat_message(self, session_id: str, role: str, content: str, **metadata: Any) -> None:
         """
         Add a message to chat history.
         
@@ -69,10 +69,11 @@ class SessionStore:
         self._chat_history[session_id].append({
             "role": role,
             "content": content,
-            "timestamp": datetime.now().isoformat()
+            "timestamp": datetime.now().isoformat(),
+            **metadata,
         })
     
-    def get_chat_history(self, session_id: str, limit: Optional[int] = None) -> List[Dict[str, str]]:
+    def get_chat_history(self, session_id: str, limit: Optional[int] = None) -> List[Dict[str, Any]]:
         """
         Get chat history for a session.
         
