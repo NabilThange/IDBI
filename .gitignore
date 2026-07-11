@@ -38,3 +38,5 @@ mobile_frame.png
 # Ignore all markdown except README
 *.md
 !README.md
+# ...but always track the RAG knowledge base (required by the build's ingest step)
+!idbi-wealth-engine/app/kb/**

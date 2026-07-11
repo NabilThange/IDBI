@@ -1,0 +1,365 @@
+---
+title: Personal & Corporate Banking | MSME & Agri banking - IDBI Bank
+source_url: https://www.idbi.bank.in/secretarial-disclosures.aspx
+---
+
+* [Home](index.aspx)
+* [Investors Corner](idbi-bank-investor.aspx)
+* Secretarial Disclosures
+
+### Secretarial Disclosures
+
+[Notice of Board Meeting](notice-of-board-meeting.aspx) 
+[Statement of deviation(s) or variation(s)](tatement-of-deviation-variation.aspx) 
+[Annual Secretarial Compliance Report](annual-secretarial-compliance-report.aspx)
+[Code for Independent Directors](pdf/Code-for-Independent-Directors-of-the-Bank.pdf)
+[IDBI Bank – Board Diversity Policy](pdf/IDBI-Bank-Board-Diversity-Policy.pdf)
+[Letters of Appointment to Independent Directors](pdf/Letters-of-appointment-of-Indepedent-Director.pdf)
+[Familiarisation Programme for Directors](pdf/Familiarisation-Programme-for-Independent-Directors.pdf)
+[Whistle Blower Policy](pdf/Whistle-Blower-Policy.pdf)
+[Shareholding Pattern](shareholding-pattern.aspx) 
+[Corporate Governance](corporate_governance.aspx)
+[Policy on Related Party Transactions](pdf/Policy-on-Related-Party-Transactions.pdf)
+[AGM/EGM/Postal Ballot- Voting Results](agm-egm-postal-ballot-voting-results.aspx)
+[Policy for determining Material Subsidiaries](pdf/Policy-for-determining-material-subsidiaries.pdf)
+[Disclosure under 46(2)(n) of Listing Regulations](pdf/investor/Disclosure-under-46.pdf)
+[Credit Rating](credit-rating.aspx) 
+[Disclosure under Regulation 30](disclosure-under-regulation-30.aspx) 
+[Transcripts of Analyst /Investors/ Concall](transcripts-of-analystinvestorsconcall.aspx)
+[Prevention of Insider Trading- Code of Fair Disclosure](pdf/investor/Prevention_of_Insider_Trading.pdf)
+[Composition of Board and Committees of the Board](pdf/Composition-of-Board-and-Committees-of-the-Board.pdf) 
+[Policy for Determination of Materiality and Disclosure of Events/Information](pdf/Policy-for-Determination-of-Materiality-Disclosure-of-Events.pdf)
+[Contact Details of KMP as per 30(5) of SEBI (LODR) Regulations, 2015](pdf/SE_Contact_details_KMP.pdf)
+[Directors Appointment, Evaluation and Succession Policy](pdf/Directors-Appointment-and-Evaluation-Policy.pdf)
+[Dividend Distribution Policy](pdf/dividenddistributionpolicy.pdf)
+[Compensation Policy of the Bank](pdf/Compensation_Policy.pdf)
+[Disclosure of Related Party Transactions](disclosure-of-related-party-transactions.aspx) 
+[Advertisements in Newspaper](advertisements-in-newspaper.aspx)
+[Open Offer](open-offer.aspx)
+[Annual Return](Annual-Return.aspx)
+[Archival Policy](pdf/Archival-Policy.pdf)
+
+![Code of Conduct banner](Banner/Images/Code-of-Conduct/Desktop-Banner.jpg)
+![Code of Conduct banner](Banner/Images/Code-of-Conduct/Responsive-Banner.jpg)
+
+## General Code of Conduct and Ethics
+
+##### Preamble
+
+IDBI Bank Ltd. is committed to creating long term economic value for all its stakeholders,
+including shareholders, depositors, customers, employees and the society as a whole. IDBI Bank Ltd. is
+committed to maintaining high standards of ethical and professional conduct in all its corporate
+activities
+
+This Code of Conduct and Ethics outlines the overall standards that shall guide the actions of
+IDBI Bank Ltd. and its Directors, officers and employees. The code is indicative and not exhaustive in
+nature and hence the same has to be read in conjunction with the other policies/circulars issued from
+time to time by the Bank.
+
+##### National Interest
+
+IDBI Bank Ltd. shall continue to be committed in all its actions to benefit the economic
+development of the nation and shall not engage in any activity that would adversely affect such
+objective.
+
+##### Financial Reporting and Records
+
+IDBI Bank Ltd. shall continue to prepare and maintain its accounts fairly and accurately in
+accordance with the accounting and financial reporting standards which represent the generally
+accepted guidelines, principles, standards, laws and regulations of the country. Internal accounting and
+audit procedures shall fairly and accurately reflect all of IDBI Bank Ltd. business transactions and
+disposition of assets.
+
+##### Corporate Disclosure Practices
+
+IDBI Bank Ltd. shall continue to abide by the corporate disclosure practices as specified by the
+appropriate external regulatory authorities.
+
+##### Competition
+
+IDBI Bank shall not resort to any anti- competitive practices and shall market its products and
+services on its own merits.**The Bank shall comply with applicable anti-trust guidelines/
+laws, which prohibits anti-competitive agreements, abuse of dominant positions by
+enterprises and regulates combinations to ensure that there is no adverse effect on
+competition in India.**
+
+##### Equal-Rights
+
+IDBI Bank Ltd shall continue to provide equal opportunities to all its employees and all qualified
+applicants for employment without regard to their race, caste, religion, colour, ancestry, marital status,
+sex, age, nationality, disability etc. Applicable laws, rules, and guidelines of Government of India / any
+other Competent Authority in this regard shall also be observed for this purpose. Employees of IDBI
+Bank Ltd. shall be treated with dignity and in accordance with the IDBI Bank Ltd. policy to maintain a
+work environment free of sexual harassment, whether physical, verbal or psychological. Employee
+policies and practices shall be administered on a non-discriminatory basis in all matters relating to
+recruitment, training, compensation, benefits, promotion, transfers and all other terms and conditions of
+employment.
+
+##### Prohibited Business
+
+IDBI Bank Ltd. shall not enter into any kind of business with any company / organization /
+entity, of which any of its director is a proprietor, partner, director, a manager, employee or guarantor
+or in which one or more directors of IDBI Bank Ltd. together hold substantial interest.
+
+For the purpose of this clause, the term “substantial interest” (i) in relation to a company means
+the holding of a beneficial interest by an individual or his spouse or minor child, whether singly or
+taken together, in the shares thereof, the amount paid up on which exceeds rupees five lakh or 10% of
+the paid up capital of the company whichever is less: and (ii) in relation to a firm/ organization/entity,
+the beneficial interest held therein by an individual or his spouse or minor child, whether singly or
+taken together, which represents more than 10% of the total capital subscribed by all the partners of the
+said firm/organization/entity.
+
+##### Quality of Products and Services
+
+IDBI Bank Ltd. shall continue to be committed to creating new industry standards of excellence
+in customer service. IDBI Bank Ltd. shall provide innovative and superior quality customer service
+consistent with the requirements of the customers for their satisfaction. IDBI Bank Ltd shall strive to
+touch more people's lives with an expanding retail footprint and delight customers with excellent
+service and comprehensive suite of best-in-class financial solutions. IDBI Bank Ltd shall deploy world
+class technology, systems and processes to improve business efficiency and exceed customer’s
+expectations.
+
+##### Corporate Opportunity
+
+A Director / Officer / Employee must not deprive IDBI Bank Ltd. of an opportunity that belongs
+to IDBI Bank Ltd., for his/ her own/other's advantage, if he / she is in a position of diverting the
+corporate opportunity for own benefit or to others to the detriment of IDBI Bank Ltd. A Director /
+Officer / Employee must not compete with IDBI Bank Ltd. in respect of any business transaction.
+
+##### Health, Safety and Environment
+
+IDBI Bank Ltd. shall strive to provide a safe and healthy working environment at its work
+places and comply, in the conduct of its business affairs, with all regulations regarding the preservation
+of the environment of the territories it operates in.
+
+##### Corporate Social Responsibility (CSR)
+
+IDBI Bank Ltd. shall continue to be committed to be a good corporate citizen not only in
+compliance with all relevant regulating laws and regulations but also by actively assisting in the
+improvement of the quality of life of the people in the communities in which it operates with the
+objective of making them self-reliant. IDBI Bank shall relentlessly strive to become a greener bank and
+reduce the carbon foot print.
+
+##### Public Representation of the Company & the Group
+
+IDBI Bank Ltd. honours the information requirements of the public and its stakeholders. All its external communication will be only by officials / directors authorized for the purpose.
+
+The information for the public constituents and stakeholders, duly approved by the Compliance
+Officer or other authorised official, as the case may be, shall be disseminated through any of the
+following media:
+
+* The accredited newspaper publications;
+* Web casting on the official web site;
+* Press handouts and press releases;
+* Audio and audio-visuals prepared for the specific purpose.
+* Banks social media and digital platforms
+
+Unless officials / directors are authorised to express their views on social media or digital
+platforms, it shall be made clear that the views expressed are of one’s own and not those of the Bank.
+
+##### Use of IDBI Bank Ltd. Name Logo/ Trademarks:
+
+A Director / Officer / Employee shall not use the name of IDBI Bank Ltd., its logo or trademark
+for personal benefit or for the benefit of persons / entities not forming part of the IDBI Group.
+
+##### Shareholders
+
+IDBI Bank Ltd. is committed to enhance shareholder value and shall comply with all regulations
+and laws that govern shareholders' rights. The Board of Directors' of IDBI Bank Ltd. shall duly and
+fairly inform its shareholders about all relevant aspects of the organisation business and disclose such
+information in accordance with the respective regulations and agreements. Every employee shall also
+be responsible for implementation of and compliance with this code.
+
+##### Ethical Standards
+
+A Director / Officer / Employee of IDBI Bank Ltd. shall conduct all the dealings on behalf of
+IDBI Bank Ltd. with professionalism, honesty, integrity and high moral and ethical standards. Every
+Director / Officer / Employee of IDBI Bank Ltd. shall be responsible for the implementation of and
+compliance with the Code in his / her professional environment, be fair and take action not to
+discriminate, honour confidentiality and strive to achieve more specific professional responsibilities.
+
+##### Insider Trading
+
+Insider Trading involves the improper use of non - public price sensitive information when
+dealing in securities. Designated Persons are prohibited from engaging in insider trading as detailed in
+the Code of Conduct for Prevention of Insider Trading. This clause may be read in conjunction with the
+Board approved policy on “Code of Fair Disclosure”,” Code of Conduct for Prevention of Insider
+Trading” and “Code of Conduct for Intermediaries and Fiduciaries” hosted on the intranet webpage of
+Board Department.
+
+##### Related Party Transactions
+
+Directors and Key Managerial Personnels (KMPs) are deemed to be related parties of the Bank
+hence they will ensure to abide by the Policy on Related Party Transactions of the Bank which is
+notified on Bank’s website and intranet.
+
+##### Conduct of Staff
+
+To uphold the image and dignity of the institution, it is desirable that every director / officer /
+employee of IDBI Bank Ltd. should demonstrate a high degree of standards in their conduct and
+discharge duties with integrity, professionalism and dedication in the best interest of the organisation,
+as under:
+
+1. a sense of fair play promoting the principles of merit, impartiality and promptness in
+   discharging of duties/tasks assigned and show courtesy, responsiveness and consideration in
+   public dealings;
+2. keeping in mind the objective of IDBI Bank Ltd. commit oneself, to contribute one’s
+   might through integrity, dedication and competence;
+3. restrain from participating or assisting in any activity, which is detrimental to the interest
+   of IDBI Bank Ltd. or is adversely affecting the competitive interest of IDBI Bank Ltd;
+4. not use or influence by virtue of the position held in the bank for obtaining favours of any
+   kind for himself / herself or any members of family or friends or equivalent person with any
+   constituent / borrower / client / customer;
+5. be cost conscious and use resources efficiently, effectively and economically to plug all
+   wastes and leakages, to remain competitive;
+6. use Discretionary Powers judiciously and with proper justification ensuring that powers
+   are not exceeded (Financial and Operational);
+7. not to be negligent or show lack of devotion to duty any time and
+8. not to show any favouritism or commit any irregularity in inviting tenders and awarding
+   contracts or cultivate too much friendship with the Bank's contractors / suppliers.
+
+##### Statutory /Regulatory Compliance
+
+A Director / officer / employee shall, in his business conduct, comply with all applicable laws
+and regulations. Submission of regulatory information should be completed accurately and within the
+stipulated timeframe as per the policy/regulatory guidelines and delays, if any, should be strictly
+avoided.
+
+##### Audit and Investigation
+
+Directors / Officers / Employees must cooperate with the requirements of any internal or
+external audit or investigation. There shall be no purposeful concealment of information from the
+Bank’s internal or external auditors, or the Bank’s lawyers whose specific enquiries should be
+answered to the best of the Directors / Officers / Employees knowledge.
+
+Further, if at any time, a Director / Officer / Employee is involved in any legal proceedings, he /
+she should immediately bring these aspects to the notice of the Bank through his / her supervisor and to
+the HRD. Senior Management / HRD must be informed at all times on matters which might be
+considered sensitive in preserving the Bank’s reputation.
+
+Non-cooperation or concealment of material aspects as above shall be considered as
+misconduct.
+
+Any attempt to withhold information, sabotage or otherwise interfere with an investigation shall
+be construed as misconduct. All investigations are confidential matters and Directors / Officers /
+Employees are not allowed to disclose any aspect of an investigation to any other person (other than to
+the supervisor / HRD), even the fact that an investigation is being conducted
+
+##### Securities Transactions and Confidential Information
+
+A Director / officer / employee of IDBI Bank Ltd. and their family members shall not derive any
+benefit or assist others to derive any benefit from the access to and possession of information about
+IDBI Bank Ltd. which is not in the public domain and thus constitutes insider information. Confidential
+information about the bank or its customers and other materially significant information acquired
+through the course of employment, is to be used for official purposes only. Unless provided for by the
+law or statutory/regulatory authorities, all employees shall endeavour to prevent unauthorised
+disclosure of such information. The Director / officer / employee of IDBI Bank Ltd. shall maintain
+confidentiality of all price sensitive information. Unpublished price sensitive information would be
+disclosed only to those within the company who need the information to discharge their duty.
+
+Directors / Officers / Employees should not encourage or circulate rumors or unverified
+information on IDBI Bank obtained/received from any client or any other sources without verification.
+Directors / Officers / Employees should bear in mind that any price sensitive news received by them
+either in their official mail / personal mail / blog / social media or in any other manner, should be
+shared / forwarded to third persons only after the same has been seen and approved by the Compliance
+Officer / competent authority. If an employee fails to do so, he / she shall be deemed to have violated
+the various provisions of the Service Rules of the Bank and shall be liable for penal action.
+
+##### Conflict of Interest
+
+Bank expects its Directors / officers / employees to maintain the highest levels of professional
+and personal integrity to avoid situations in which an individual’s personal interest may conflict or
+appear to conflict with either the interest of the Bank or its stakeholders. A conflict of interest may
+exist when an Director / Officer / Employee is involved in an activity or has a personal (direct or
+indirect, by himself or through any relative) interest that in the opinion of the Bank can interfere with
+the Director’s / Officer’s / Employee’s objectivity in performing Bank’s duties and responsibilities. For
+the purpose of this clause, the term ‘relative’ shall have the meaning ascribed to the said term in the
+Companies Act, 2013 read with Companies (Specification of Definitions Details) Rules, 2014
+
+The Directors / officers / employees of IDBI Bank Ltd. shall always conduct themselves in an
+honest and ethical manner and in the best interest of the Bank. Towards this, the directors, officers and
+employees of IDBI Bank Ltd. shall endeavour to avoid situations that may lead to an actual or potential
+conflict between person's private interest and the interest of the Bank, including its affiliates and
+subsidiaries. While it may be difficult to list all the situations of conflict of interest, the following are
+illustrative examples of some of the situations, which may constitute a Conflict of interest:
+
+* a Director/ officer/ employee engages in any business, relationship or activity which might
+  detrimentally conflict with the business of IDBI Bank Ltd.
+* a Director / officer / employee or their relative receives improper personal benefits as a result of
+  his official position in IDBI Bank Ltd.
+* a Director / officer / employee is in a position to make, influence or benefit from the decisions
+  relating to the transaction.
+* pursuing part time employment outside the Bank, except as permitted by the Bank
+
+If such and other instances of conflict of interest exist due to any historical reasons, adequate
+disclosures by the interested employees should be made to the management. Any Director, officer or
+employee shall not represent the Bank in a transaction where he or she has material connection or
+financial interest. Bank will not give preferential treatment to any outside interest of our
+Directors/Officers or Employees.
+
+##### Gifts/ Donations/ Fees/ Legacies/ Loans
+
+The Director / officer / employee of IDBI Bank Ltd. shall not solicit or accept any gifts /
+donations hospitality/entertainment of more than modest value from a constituent of IDBI Bank Ltd. or
+from any subordinate employee or from existing / potential clients or third parties having business
+dealings with IDBI Bank Ltd that could potentially influence banks decisions.
+
+Directors, Officers and employees shall make choices, take decisions and make
+recommendations on merit alone and shall refrain from doing anything which is or may be contrary to
+any law, rules, regulations and established practices
+
+A Director/Officer or employee shall not place himself under any financial or other obligations
+to any individual or organisation which may influence him in the performance of his official duties.
+
+A Director/Officer or employee of the bank may not accept a loan from Banks customer or
+supplier.
+
+A Director/Officer or employee may not solicit or receive anything in value for making a loan.
+A Director/Officer or employee may not accept a fee for the performance of any act that the Bank
+could have performed without the sanction of the Competent Authority.
+
+##### Work environment
+
+IDBI Bank Ltd shall strive to encourage a positive, dynamic and performance-driven work
+culture to nurture employees and build a passionate and committed work force. As a good corporate
+citizen, IDBI Bank Ltd. is committed to a gender sensitive /friendly workplace. IDBI Bank Ltd.
+demands, demonstrates and promotes professional behaviour and respectful treatment of all employees.
+IDBI Bank will strive for the right to work with dignity and maintain an equal opportunity work
+environment that is free from sexual harassment. This may be read in conjunction with Bank’s Policy
+regarding Prevention & Prohibition of Sexual Harassment at Workplace.
+
+##### Prohibition against participation in politics and standing for election
+
+No employee shall take an active part in politics or in any political demonstration, or stand for
+election as member of a Municipal Council, district Board or any other Local Body or any Legislative
+Body.
+
+##### Protection of Bank's assets
+
+The assets of IDBI Bank Ltd. shall not be misused but employed for conducting the business for
+which they are duly authorized.
+
+##### Rights and responsibilities
+
+Directors, Officers and employees of the Bank are encouraged to promptly report fraudulent,
+dishonest or questionable conduct. Bank has put in place a policy on Vigil mechanism wherein,
+Directors, Officers or employees who observe/witness an unethical or improper practice (not necessarily a violation of law) shall approach the Designated Official/Central Vigilance Commission
+(CVC).
+
+##### Violation of the Code
+
+It is binding on all Directors, Officers and Employees that they read and understand the
+provisions of the code and conduct themselves accordingly. Bank shall be at liberty to take necessary
+action in case of willful violation, breach or non-compliance of the code.
+
+##### Ethics and Compliance Committee
+
+The Ethics and Compliance Committee comprising MD & CEO, DMD in-charge of Human
+Resources, Executive Director in-charge of Human Resources, Chief Vigilance Officer of IDBI Bank
+Ltd. and the Compliance Officer and any other officer so nominated, will oversee the compliance of the
+Code of Conduct and Ethics.
+
+##### Review of the Code
+
+The code shall be reviewed once every three years. Any variation in the code or any waivers
+from the provision of the Code shall be approved by the Board.

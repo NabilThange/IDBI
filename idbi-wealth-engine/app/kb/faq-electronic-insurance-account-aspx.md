@@ -1,0 +1,207 @@
+---
+title: Personal & Corporate Banking | MSME & Agri banking - IDBI Bank
+source_url: https://www.idbi.bank.in/faq-electronic-insurance-account.aspx
+---
+
+* [Home](index.aspx)
+* [Investment](#)
+* [Capital Market](#)
+.* [Electronic-Insurance Account](electronic-insurance-account.aspx)
+* INSURANCE REPOSITORY
+
+### Capital Market - Electronic-Insurance Account
+
+[Domestic Interest Rates](interest-rates.aspx)
+
+[Service Charges](service-charges.aspx)
+
+# Capital Market - Electronic-Insurance Account
+
+What is Insurance Repository?
+
+“Insurance Repository” means a company formed and registered under the Companies Act, 1956 (1 of 1956) and which has been granted a certificate of registration under these Guidelines by Insurance Regulatory and Development Authority for maintaining data of insurance policies in Electronic form on behalf of insurers including the history of transactions during the term of Policy.
+
+What is the objective of an Insurance Repository?
+
+The objective of creating an insurance repository is to provide policyholders a facility to keep insurance policies in electronic form and to undertake changes, modifications and revisions in the insurance policy with speed and accuracy in order to bring about efficiency, transparency and cost reduction in the issuance and maintenance of insurance policies.
+
+What is an eIA account?
+
+eIA stands for e-Insurance Account i.e. “Electronic Insurance Account” which will safeguard the insurance policy documents of policyholders in electronic format. This eIA account will facilitate the policyholder to access his all insurance portfolio at a click of a button through internet
+
+Why should policy holder open an eIA (e-insurance Account)?
+
+Any existing policyholder or a prospective policyholder can open an e-insurance account. eIA will be absolutely free of cost to all policy holders opting for electronic issuance of policies. Policy holder would not be required to go through KYC procedure every time when he/she buys a new policy. IDBI IR will provide an e-insurance Account to every policyholder and all his policies will come under single eIA. It will hold all type of policies including life, health, motor and group covers, dematerialized policies will be more liquid than paper policies as these contracts can be easily assigned. Having an e-insurance account will reduce hassles for buyers. Policyholder can avail the benefits of the services like financial or non financial alteration/endorsements under the single e- insurance account.
+
+Do I need to pay for opening of e-Insurance Account?
+
+Absolutely no, opening of e-Insurance Account is free of cost to every policyholder.
+
+Can any individual or policyholder open more than one e-insurance account with any Insurance Repository?
+
+No. every individual or policyholder may be proposed and existing can have only one eIA account across all Insurance Repositories. He cannot open more than one eIA account with different Insurance Repository as per the IRDA guidelines.
+
+Who is an Approved Person (AP)?
+
+An Approved Person is a Point of Sale (PoS) appointed by Insurance Repository and will be working on behalf of Insurance Repository to extend the IR services.
+
+What is an eIA application form?
+
+An eIA application form is the application made by policyholder to open an e-insurance account with the Insurance Repository. This form would be available with Insurance Company, Insurance Repository branch or an Approved Person. This form is also available online a policyholder can get it printed, fill it and submit to any one of the above with valid KYC documents as per the list mentioned in this FAQ.
+
+What is the basic requirement to be completed for opening an eIA account?
+
+An eIA holder or policyholder is required to fill the eIA form and submit it along with photo ID and address proof to any nearest office of Insurance Repository branch or to the insurance company where the policyholder has his insurance policies.
+
+Can I open an eIA account without having the life or non life policy in my name?
+
+Yes, an individual who is not having any policy in the existence can also open an eIA account and take the policy in his name later. After taking the policy the policy holder is required to give the request for dematerialization of policy to his insurer or Insurance Repository where he has opened his eIA account.
+
+How many days it takes to open an eIA account after all the necessary formalities are completed??
+
+Your eIA account will be opened within 07 working days and you will receive a welcome kit containing your user name and password for your account to login to the e-insurance account.
+
+What are the valid documents to be submitted for creation of eIA?
+
+* Recent passport size photograph
+* Cancelled Cheque ( In case of ECS/NEFT services for insurance premium payment transaction)
+* List of KYC documents:
+
+Identity Proof (Any One)
+
+* PAN card
+* UID
+
+Address Proof (Any One)
+
+* Regd. Lease and License Agreement/ Agreement for sale
+* Aadhar Letter
+* Ration Card
+* Driving License
+* Passport
+* Voter ID Card
+* Bank Passbook (not more than 6 months old)
+* Electricity Bill (not more than 6 months old)
+* Residence telephone Bill (not more than 6 months old)
+* Self-declaration by High Court and Supreme Court judges, giving the new address in respect of their own accounts
+* Identity card/document with address, issued by Central/State Government and its Departments
+* Identity card/document with address, Statutory/Regulatory Authorities
+* Identity card/document with address, Public Sector Undertakings
+* Identity card/document with address, Scheduled Commercial Banks
+* Identity card/document with address, Public Financial Institutions
+* Identity card/document with address, Colleges affiliated to universities
+* Identity card/document with address, Professional Bodies such as ICAI, ICWAI, Bar Council etc. to their Members
+
+Date of Birth Proof (Any One)
+
+* PAN Card
+* Domicile Certificate
+* Ration Card
+* Driving License
+* Passport
+* Voter ID Card
+* Municipal birth Certificate
+* Notarized Birth Certificate
+* Baptism Certificate
+* Marriage Certificate issued by Church
+* Identity card/document with address, issued by Central/State Government and its Departments
+* Gram Panchayat certificate
+* Identity card/document with address, Public Sector Undertakings
+* Defense ID including Ex-serviceman card issued to Defense personnel/ certificate of DOB issued by commanding officer with his seal & signature on the same
+* Identity card/document with address, Colleges affiliated to universities
+* Central Govt. Health scheme certificate for their employees/ family members/ dependants
+* Govt. service registers extract/certificates issued by Govt. to its employees
+* Employer's PF statement
+* ESIS Card ( Employees State Insurance Scheme )
+* Employer's certificate from Govt., Semi Govt., MNC, Public Ltd, Reputed Private Ltd. Organizations only. The certificate must be on the letterhead, duly signed & stamped by the authorized signatory
+* Certified School/ College Extract including School/ College leaving certificate/ Degree certificates / mark sheet or hall ticket or admit card issued by Educational Board (10 & 12th std) reflecting DOB of eIA applicant
+* Policy Document of other private insurers
+* LIC Policy
+* Islander cards for Residents of Andaman & Nicobar Island
+* Pilgrim pass issued for Haj Pilgrimage
+
+Who is an Authorized Representative?
+
+An Authorized Representative is a person as appointed by eIA holder or policyholder at the time of eIA opening, who will be operating his/her eIA account in case of unfortunate demise or incapability of policyholder or eIA holder to operate his account. A policyholder or eIA holder can delegate his right to access the e-insurance account to Authorized Representative who will intimate the Insurance Repository about the demise of policyholder with valid proof of death and gives a request to cease his account after settlement of claim if any.
+
+What details I can find in my e-insurance account?
+
+An eIA holder or policyholder can have his valid policy bond in a dematerialized format in his eIA account. He/she can view online all the policy related details under single eIA account.
+
+**Policy Servicing**
+
+* Single request contact details updation
+* Premium alerts & payment for all insurers
+* Increased number of service touch points
+* Ease in registering bank account details for premium payment and payouts
+
+**Ease**
+
+* One time Know Your Customer updation
+* Storage of policy in electronic format
+* All insurance policies under single eInsurance Account
+* Consolidated insurance statement on an annual basis
+
+**Claims**
+
+* Single view of all policies to an authorized person in case of death of the eIA account holder
+* One time claim intimation
+
+Can ‘Nominee’ and ‘Authorized Representative’ be the same person?
+
+Yes, both Nominee and Authorized Representative can be the same person
+
+* After the demise of the e-Insurance Account holder and after settlement of all insurance claims, the Authorized Representative needs to make a request to the insurance repository to close the e-Insurance Account.
+
+What communications shall the e-Insurance Account holder receive in hard copy or print format?
+
+The e-Insurance Account holder will receive the following documents in hard copy or print format:
+
+* Welcome Kit with details of e-Insurance Account and modus operandi of its operation, the login ID.
+* A pin mailer with the password.
+* The statement of account giving the details of all policies held whenever additional insurance is taken or a policy matures/ is surrendered/ lapses.
+* When a new policy is issued, the insurer shall send an insurance information sheet containing the basic details of the insurance policy to the address stated.
+
+Is it possible to shift from one insurance repository to the other?
+
+Yes, the e-Insurance Account holder will have an option to shift from one insurance repository to the other. All the policy details and transaction history would then be transferred to the new insurance repository.
+
+Is it possible to opt out of the insurance repository system?
+
+Yes, the policyholder shall make a request to his insurer and upon completion of all formalities in respect of the same; the hard copy or print format of the policy document shall be made available.
+
+What are the benefits of holding Insurance Policies in electronic form?
+
+There are multiple benefits in holding insurance policies in electronic form under a single e-Insurance Account (e IA). These benefits include:
+
+* **Safety:** There is no risk of loss or damage of a policy as may happen with paper policies; the electronic form ensures that the policies are in safe custody and can be easily accessed when needed.
+* **Convenience:** All insurance policies, be it life, pension, health or general, can be electronically held under a single e IA. This means all details of all policies are available in a single account (place). The details of any of the policies can be accessed at any time by logging on to the online portal of Insurance Repository. Premium for all the policies can be paid online and many service requests or complaints can be logged at this website.
+* **Single Point of Service:**All service requests in respect of e IA or any of the electronic policies held under the e IA can be submitted at any of the Insurance Repository service points – there is no need to go to the offices of individual insurance companies for service.
+* **Less Paper work:** When you want to buy a new electronic insurance policy under an existing e IA, you don’t need to go through KYC verification all over again, if there are no changes to your KYC details already recorded in your e IA. Further, if you want to make any changes to your personal details like address or contact no, it is enough to change the details in your e IA with the Insurance Repository by submitting a single request – the Insurance Repository, in turn, will inform all the insurance companies with whom you hold electronic policies, about the changes.
+
+What do I need to pay to maintain electronic policies in my e IA? And what is the fee for converting my existing paper polices into electronic policies?
+
+All the services provided by Insurance Repositories are absolutely FREE of charge to policy holders. Policy holders need not pay anything extra to buy an electronic policy or to convert an existing paper policy into electronic form. Similarly they need not pay anything to avail of any services from the Insurance Repository, including online premium payment and services at the respective online portal
+
+What do I do if I need to make any changes to my policy or e IA? Do I submit a request to the Insurance Company or to the Insurance Repository?
+
+It is best to submit ALL requests in respect of either your e IA or any of your electronic policies to the Insurance Repository. If the changes are with respect to an account level detail (like address or phone number), the Insurance Repository will execute the change after the necessary KYC verification, if any. The Insurance Repository will then intimate the changes to all the Insurance Companies whose policies are held in that e IA, so that the changes are effected in all the policies, in one go (so there is no need for the policy holder to approach the various insurance companies individually for the changes).
+In case of any changes at the policy level, the Insurance Repository is expected to forward the request to the respective insurance company and ensure that the same is executed and reflected in the electronic policy held with the Insurance Repository.
+
+How do I convert my existing paper policy into electronic form?
+
+On opening an e IA, you just need to write out a request, addressed to the Insurer, for converting your existing paper policy to electronic mode. Request Forms for policy conversion are available in all offices of the respective Insurance Repositories. They can also be downloaded from respective websites. You need to fill out a separate request for each paper policy that you wish to convert to electronic form. These requests, duly signed, can be submitted at the respective Insurance Company or at any Insurance Repository office.
+
+If you do not have an e IA, you can submit an e IA opening form with the necessary supporting documents along with the request for converting paper policy to electronic mode
+
+Is it compulsory for all Insurance Companies to offer electronic policies?
+
+Yes. It is the policy holder’s prerogative to opt for a policy in electronic form. If a policy holder wants his/her policy (either new purchase or existing) in electronic form, then the Insurer is bound to fulfill his / her requirement.
+
+The choice of a Repository for opening an e IA is the prerogative of the policy holder and hence all Insurance Companies will need to work with all the Insurance Repositories.
+
+Initially, repository service will be available for life insurance only; over time, health and general insurance (personal lines only) will also be brought within the ambit of repository services.
+
+Can a policy holder have both paper and electronic policies?
+
+Policy holders can choose the form in which they want their policies issued – paper or electronic. A policy can be bought or maintained in one form only – either in electronic form or paper but not in both. However, a policy holder can choose to keep some policies in electronic form and others in paper form – only the electronic policies will be reflected in his e IA account and he can use repository services only for the e policies (and not the paper policies)
