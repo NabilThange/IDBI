@@ -90,9 +90,6 @@ export default function ChatWidget() {
     if (!isAuthenticated) stopVoiceSession()
   }, [isAuthenticated])
 
-  // Don't render anything if not authenticated
-  if (!isAuthenticated) return null
-
   // ─── Helpers ───────────────────────────────────────────────────────────────
 
   const setVoiceStateSynced = (s) => {
@@ -368,6 +365,12 @@ export default function ChatWidget() {
   }
 
   // ─── Render ────────────────────────────────────────────────────────────────
+
+  // Don't render anything if not authenticated. This must come AFTER every
+  // function declaration above so that effects referencing e.g. stopVoiceSession()
+  // don't hit the temporal dead zone on an early return (the const would never
+  // be initialized and the auth-change effect would throw).
+  if (!isAuthenticated) return null
 
   return (
     <div
