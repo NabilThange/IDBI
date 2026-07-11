@@ -179,16 +179,13 @@ export default function GoalQuiz() {
   const stepLabels = ["Start", "About You", "Safety Net", "Goals", "Risk Comfort", "Confirm"]
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 p-4 sm:p-8 flex flex-col justify-between select-none relative font-sans">
-      
-      {/* Glow Effects */}
-      <div className="absolute top-1/6 left-1/2 -translate-x-1/2 w-[320px] h-[320px] bg-violet-600/10 rounded-full blur-[90px] pointer-events-none"></div>
+    <div className="quiz-page h-[100dvh] overflow-hidden bg-slate-950 text-slate-100 p-3 sm:p-8 flex flex-col relative font-sans select-none">
 
-      <div className="max-w-xl mx-auto w-full flex-1 flex flex-col justify-between">
+      <div className="quiz-shell max-w-xl mx-auto w-full min-h-0 flex-1 flex flex-col">
         
         {/* Stepper (Only show after step 0) */}
         {currentStep > 0 && (
-          <div className="mb-8 mt-2">
+          <div className="quiz-progress mb-8 mt-2">
             <div className="flex justify-between items-center relative px-2">
               <div className="absolute top-3.5 left-6 right-6 h-[2px] bg-slate-800 z-0"></div>
               {stepLabels.map((label, idx) => {
@@ -217,11 +214,11 @@ export default function GoalQuiz() {
         )}
 
         {/* Wizard Panel */}
-        <Card className="bg-slate-900/40 backdrop-blur-xl border border-slate-850 shadow-2xl rounded-3xl flex-1 flex flex-col justify-between mb-6 overflow-hidden">
+        <Card className="quiz-card bg-slate-900/40 backdrop-blur-xl border border-slate-850 shadow-2xl rounded-3xl min-h-0 flex-1 flex flex-col mb-6 overflow-hidden">
           
           {/* Step Headers */}
           {currentStep > 0 && (
-            <CardHeader className="p-5 border-b border-slate-850 bg-slate-950/20">
+            <CardHeader className="quiz-step-header p-5 border-b border-slate-850 bg-slate-950/20">
               <div className="flex items-center gap-3">
                 <div className="w-9 h-9 bg-slate-950 border border-slate-800 rounded-xl flex items-center justify-center">
                   {currentStep === 1 && <Target className="w-5 h-5 text-primary" />}
@@ -250,32 +247,40 @@ export default function GoalQuiz() {
             </CardHeader>
           )}
 
-          <CardContent className="p-6 space-y-6 flex-1 overflow-y-auto">
+          <CardContent className="quiz-content space-y-6 flex-1 min-h-0 overflow-y-auto overscroll-contain">
             
             {/* SCREEN 0: Framing */}
             {currentStep === 0 && (
-              <div className="space-y-6 py-6 text-center">
+              <div className="quiz-welcome space-y-6 py-6 text-center">
                 <div className="inline-flex items-center justify-center w-14 h-14 bg-primary/10 border border-primary/20 rounded-2xl mb-2">
                   <Sparkles className="w-7 h-7 text-primary" />
                 </div>
                 <div className="space-y-2">
-                  <span className="text-[10px] font-bold tracking-widest text-primary uppercase">Interactive Wealth Advisor</span>
-                  <h1 className="text-2xl font-black text-slate-100 tracking-tight">5 Quick Steps, About 2 Minutes</h1>
+                  <span className="text-[10px] font-bold tracking-widest text-primary uppercase">Your financial snapshot</span>
+                  <h1 className="text-2xl font-black text-slate-100 tracking-tight">Build a plan that fits your life</h1>
                   <p className="text-xs text-slate-400 max-w-sm mx-auto leading-relaxed">
                     We will ask about your dependents, your safety buffers, and risk thresholds — so we never recommend something that doesn't fit your life.
                   </p>
                 </div>
 
+                <div className="quiz-start-progress" aria-label="You are 16% of the way through your financial snapshot">
+                  <div className="flex items-center justify-between text-[11px] font-bold">
+                    <span>Profile started</span>
+                    <span>16%</span>
+                  </div>
+                  <div><span /></div>
+                </div>
+
                 <div className="bg-slate-950/40 border border-slate-850 p-4 rounded-2xl text-left max-w-sm mx-auto">
-                  <h4 className="text-[11px] font-bold uppercase tracking-wider text-slate-300">Why this matters:</h4>
+                  <h4 className="text-[11px] font-bold uppercase tracking-wider text-slate-300">What you will cover</h4>
                   <p className="text-[11px] text-slate-400 mt-1.5 leading-relaxed">
                     Standard risk questionnaires miss financial capacity. Evaluating dependents and safety buffers ensures we prioritize protection and safety nets before exposing savings to market risks.
                   </p>
                 </div>
 
                 <div className="pt-4">
-                  <Button onClick={() => setCurrentStep(1)} className="w-full sm:w-60 py-5 bg-primary hover:bg-primary/90 text-white font-extrabold text-xs rounded-2xl shadow-lg shadow-primary/20">
-                    Let's Start Onboarding
+                  <Button onClick={() => setCurrentStep(1)} className="quiz-primary-action w-full sm:w-60 mx-auto py-5 bg-accent hover:bg-accent/90 text-accent-foreground font-extrabold text-xs rounded-2xl shadow-lg shadow-accent/30 active:scale-[0.98] transition">
+                    Continue to your profile
                   </Button>
                 </div>
               </div>
@@ -660,7 +665,7 @@ export default function GoalQuiz() {
             {/* SCREEN 5: Recap & Confirm */}
             {currentStep === 5 && (
               <div className="space-y-6">
-                <div className="bg-primary/10 border border-primary/20 p-5 rounded-2xl space-y-4">
+                <div className="quiz-digest bg-primary/10 border border-primary/20 p-5 rounded-2xl space-y-4">
                   <span className="text-[9px] font-bold tracking-widest text-primary uppercase block">Onboarding Digest</span>
                   <div className="text-slate-200 text-xs leading-relaxed space-y-4">
                     
@@ -722,7 +727,7 @@ export default function GoalQuiz() {
 
           {/* Stepper Navigation Actions */}
           {currentStep > 0 && (
-            <div className="p-4 border-t border-slate-855 flex justify-between gap-3 bg-slate-950/30">
+            <div className="quiz-actions p-4 border-t border-slate-855 flex justify-between gap-3 bg-slate-950/30">
               <Button
                 onClick={prevStep}
                 variant="outline"

@@ -125,6 +125,237 @@
   }
 }
 
+/* Quiz: a focused, low-friction financial setup flow. */
+@layer components {
+  .quiz-page {
+    --background: #f6f7f8;
+    --foreground: #18232d;
+    --card: #ffffff;
+    --card-foreground: #18232d;
+    --primary: #116b57;
+    --primary-foreground: #ffffff;
+    --secondary: #e7f3ef;
+    --secondary-foreground: #116b57;
+    --muted: #f4f5f6;
+    --muted-foreground: #63707a;
+    --accent: #52a783;
+    --accent-foreground: #ffffff;
+    --border: #e1e5e8;
+    --input: #dfe4e7;
+    --ring: #116b57;
+    background: #f6f7f8;
+    color: #18232d;
+  }
+
+  .quiz-shell {
+    max-width: 30rem;
+    padding: 1.5rem 0;
+  }
+
+  .quiz-card {
+    border-color: #e1e5e8;
+    border-radius: 1.25rem;
+    background: #ffffff;
+    box-shadow: 0 18px 48px rgba(29, 67, 58, 0.09), 0 2px 7px rgba(29, 67, 58, 0.04);
+  }
+
+  .quiz-progress {
+    padding: 0 0.25rem;
+  }
+
+  .quiz-progress .absolute {
+    background: #dfe8e4;
+  }
+
+  .quiz-progress [class*="bg-primary"] {
+    box-shadow: 0 4px 10px rgba(17, 107, 87, 0.18);
+  }
+
+  .quiz-step-header {
+    background: #ffffff;
+    border-color: #edf0f1;
+  }
+
+  .quiz-step-header > div > div:first-child {
+    background: #eaf4f0;
+    border-color: #d7e8e2;
+  }
+
+  .quiz-content {
+    padding: 1.5rem;
+  }
+
+  .quiz-content label {
+    color: #38454f;
+    font-size: 0.6875rem;
+    letter-spacing: 0.04em;
+  }
+
+  .quiz-content [class*="border-primary"][class*="bg-primary"] {
+    background-color: rgba(17, 107, 87, 0.07) !important;
+    color: #18232d !important;
+    box-shadow: inset 0 0 0 1px rgba(17, 107, 87, 0.06);
+  }
+
+  .quiz-content input {
+    background: #ffffff;
+    border-color: #dfe4e7;
+    min-height: 2.75rem;
+  }
+
+  .quiz-content input:focus {
+    box-shadow: 0 0 0 3px rgba(17, 107, 87, 0.12);
+  }
+
+  .quiz-content .bg-slate-950\/50,
+  .quiz-content .bg-slate-950\/40,
+  .quiz-content .bg-slate-950\/30 {
+    background: #f8faf9;
+  }
+
+  .quiz-content .bg-slate-950\/50 {
+    border-color: #e4e9e7;
+  }
+
+  .quiz-digest {
+    background: #f8faf9 !important;
+    border-color: #dfe9e5 !important;
+  }
+
+  .quiz-digest > div {
+    color: #485761;
+  }
+
+  .quiz-digest strong {
+    color: #18232d;
+  }
+
+  .quiz-welcome .inline-flex {
+    background: #e7f3ef;
+    border-color: #d4e8e0;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  }
+
+  .quiz-welcome h1 {
+    max-width: 20rem;
+    margin-inline: auto;
+    color: #18232d;
+    font-size: 1.75rem;
+    line-height: 1.15;
+    letter-spacing: 0;
+  }
+
+  .quiz-start-progress {
+    max-width: 20rem;
+    margin: 0 auto;
+    color: #485761;
+    text-align: left;
+  }
+
+  .quiz-start-progress > div:last-child {
+    height: 0.375rem;
+    margin-top: 0.5rem;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #e5ece9;
+  }
+
+  .quiz-start-progress > div:last-child > span {
+    display: block;
+    width: 16%;
+    height: 100%;
+    border-radius: inherit;
+    background: #116b57;
+  }
+
+  /* Guarded CTA styling: the button reset in preflight sets
+     background-color:#0000 on every <button>, so pin the fill here
+     (class specificity beats the element reset) to guarantee the
+     welcome CTA renders as an enabled green, never greyed-out. */
+  .quiz-primary-action {
+    background-color: #116b57 !important;
+    color: #ffffff !important;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22), 0 8px 16px rgba(17, 107, 87, 0.25);
+  }
+
+  .quiz-primary-action:hover {
+    background-color: #0d5948 !important;
+  }
+
+  .quiz-primary-action,
+  .quiz-actions [class*="bg-primary"],
+  .quiz-actions [class*="bg-accent"] {
+    min-height: 3rem;
+    border-radius: 0.875rem;
+  }
+
+  .quiz-actions {
+    position: sticky;
+    bottom: 0;
+    z-index: 2;
+    padding: 1rem 1.5rem;
+    background: rgba(255, 255, 255, 0.96);
+    border-color: #edf0f1;
+    backdrop-filter: blur(8px);
+  }
+
+  .quiz-actions [class*="border-slate"] {
+    background: #ffffff;
+    border-color: #dfe4e7;
+    color: #55636d;
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .quiz-page {
+    padding: 0.75rem;
+  }
+
+  .quiz-shell {
+    padding: 0.5rem 0;
+  }
+
+  .quiz-card {
+    border-radius: 1rem;
+  }
+
+  .quiz-content {
+    padding: 1.5rem !important;
+  }
+
+  .quiz-content label {
+    font-size: 0.75rem;
+  }
+
+  .quiz-content [class*="text-xs"] {
+    font-size: 0.875rem;
+    line-height: 1.4;
+  }
+
+  .quiz-content [class*="text-[10px]"] {
+    font-size: 0.75rem;
+    line-height: 1.4;
+  }
+
+  .quiz-content [class*="text-[11px]"] {
+    font-size: 0.8125rem;
+    line-height: 1.45;
+  }
+
+  .quiz-content [class*="p-3"][class*="rounded-2xl"] {
+    padding: 1rem;
+  }
+
+  .quiz-content .flex-1 {
+    min-height: 3rem;
+  }
+
+  .quiz-actions {
+    padding: 0.75rem 1.25rem calc(0.75rem + env(safe-area-inset-bottom));
+  }
+}
+
 /* Custom Scrollbar Styles */
 ::-webkit-scrollbar {
   width: 5px;
