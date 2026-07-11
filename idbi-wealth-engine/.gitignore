@@ -38,7 +38,8 @@ ENV/
 
 # Generated Files
 app/cache/
-app/rag/index/
+app/rag/index/*
+!app/rag/index/bm25_index.pkl
 
 # OS
 .DS_Store

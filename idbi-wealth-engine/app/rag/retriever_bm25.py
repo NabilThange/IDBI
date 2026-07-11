@@ -4,6 +4,7 @@ Keyword-based search for IDBI Knowledge Base
 """
 
 import pickle
+import threading
 from pathlib import Path
 from typing import List, Dict
 import numpy as np
@@ -19,6 +20,7 @@ class BM25Retriever:
         self.bm25 = None
         self.chunks = []
         self.ranker = None  # FlashRank reranker
+        self._ranker_lock = threading.Lock()
         self._initialized = False
     
     def _lazy_init(self) -> bool:
@@ -87,7 +89,9 @@ class BM25Retriever:
         if self.ranker and len(bm25_results) > 1:
             from flashrank import RerankRequest
             passages = [{"id": i, "text": r["text"]} for i, r in enumerate(bm25_results)]
-            reranked = self.ranker.rerank(RerankRequest(query=query, passages=passages))
+            # ponytail: one 1 GB process; serialize model inference to bound peak RAM.
+            with self._ranker_lock:
+                reranked = self.ranker.rerank(RerankRequest(query=query, passages=passages))
             results = []
             for item in reranked[:top_k]:
                 chunk = bm25_results[item["id"]].copy()

@@ -52,7 +52,7 @@ def has_metadata_index() -> bool:
         with open(RAG_INDEX_DIR / "bm25_index.pkl", "rb") as f:
             chunks = pickle.load(f).get("chunks", [])
         return bool(chunks) and all("url" in chunk for chunk in chunks)
-    except (OSError, pickle.UnpicklingError, KeyError, AttributeError):
+    except (OSError, EOFError, pickle.UnpicklingError, KeyError, AttributeError):
         return False
 
 
@@ -140,17 +140,17 @@ class Crawl4AIIngester:
                 
                 # Keep last few sentences for overlap
                 overlap_sentences = []
-                overlap_tokens = 0
+                overlap_count = 0
                 for s in reversed(current_chunk):
                     s_tokens = self.estimate_tokens(s)
-                    if overlap_tokens + s_tokens < overlap_tokens:
+                    if overlap_count + s_tokens <= overlap_tokens:
                         overlap_sentences.insert(0, s)
-                        overlap_tokens += s_tokens
+                        overlap_count += s_tokens
                     else:
                         break
                 
                 current_chunk = overlap_sentences
-                current_tokens = overlap_tokens
+                current_tokens = overlap_count
             
             current_chunk.append(sentence)
             current_tokens += sentence_tokens
