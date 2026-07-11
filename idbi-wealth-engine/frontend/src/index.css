@@ -305,6 +305,16 @@
   50%       { opacity: 0; }
 }
 
+/* QR modal entrance animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes popIn {
+  from { opacity: 0; transform: translateY(8px) scale(0.96); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
 .ai-response {
   font-size: 0.75rem;
   line-height: 1.65;
