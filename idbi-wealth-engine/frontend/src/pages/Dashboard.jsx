@@ -21,7 +21,7 @@ import {
 import {
   User, Coins, Target, Briefcase, ChartBar as BarChart2,
   Shield, Translate as Languages, Question as HelpCircle, CheckCircle, Warning as AlertTriangle,
-  ArrowRight, Plus, ArrowClockwise as RefreshCw, CaretDown as ChevronDown, ShieldWarning as ShieldAlert,
+  ArrowRight, Plus, CaretDown as ChevronDown, ShieldWarning as ShieldAlert,
   UserPlus, CreditCard, TrendUp as TrendingUp, List as Menu, X, Sparkle as Sparkles,
   Pencil as Edit2, ChatCircle as MessageCircle, ArrowUpRight, Wallet,
   House as Home, ForkKnife as Utensils, Car, Television as Tv, Heartbeat as Activity, ShoppingCart, ThumbsUp, ThumbsDown, Check
@@ -37,6 +37,45 @@ const COLORS = {
 }
 
 const PIE_COLORS = ['#3b82f6', '#f59e0b', '#ef4444', '#10b981', '#6b7280']
+
+const LOADING_MESSAGES = [
+  'Finding the patterns behind your money.',
+  'Turning everyday activity into useful signals.',
+  'Lining up the next smart move for you.',
+  'Putting your goals in sharper focus.',
+  'Looking for opportunities worth your attention.',
+  'Connecting the details to the bigger picture.',
+  'Building a clearer view of your financial life.',
+  'Preparing insights made for this moment.'
+]
+
+const shuffle = (items) => [...items].sort(() => Math.random() - 0.5)
+const DotmCircular3 = () => <div className="dotm-circular dotm-circular-3">{Array.from({ length: 12 }, (_, i) => <i key={i} style={{ '--dot': i }} />)}</div>
+const DotmCircular4 = () => <div className="dotm-circular dotm-circular-4">{Array.from({ length: 12 }, (_, i) => <i key={i} style={{ '--dot': i }} />)}</div>
+const DotmCircular11 = () => <div className="dotm-circular dotm-circular-11">{Array.from({ length: 12 }, (_, i) => <i key={i} style={{ '--dot': i }} />)}</div>
+const DOT_MATRIX_LOADERS = [DotmCircular3, DotmCircular4, DotmCircular11]
+
+function DashboardLoader() {
+  const [loaderState, setLoaderState] = useState(() => ({ items: shuffle(DOT_MATRIX_LOADERS), index: 0 }))
+  const [messageState, setMessageState] = useState(() => ({ items: shuffle(LOADING_MESSAGES), index: 0 }))
+  const Loader = loaderState.items[loaderState.index]
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoaderState(({ items, index }) => index < items.length - 1
+      ? { items, index: index + 1 }
+      : { items: shuffle(DOT_MATRIX_LOADERS), index: 0 }), 1000 + Math.random() * 2000)
+    return () => clearTimeout(timer)
+  }, [loaderState.index])
+
+  useEffect(() => {
+    const timer = setTimeout(() => setMessageState(({ items, index }) => index < items.length - 1
+      ? { items, index: index + 1 }
+      : { items: shuffle(LOADING_MESSAGES), index: 0 }), 1000 + Math.random() * 2000)
+    return () => clearTimeout(timer)
+  }, [messageState.index])
+
+  return <div className="dashboard-loader" aria-live="polite"><Loader /><p>{messageState.items[messageState.index]}</p></div>
+}
 
 function assignCohort(profile) {
   if (!profile || !profile.financial_summary) return 'unknown';
@@ -606,9 +645,8 @@ export default function Dashboard() {
       {/* Main Content Area */}
       <main className="flex-1 p-6 max-w-7xl w-full mx-auto flex flex-col gap-6">
         {loading && (
-          <div className="flex-1 flex flex-col justify-center items-center py-20 gap-4">
-            <RefreshCw className="w-10 h-10 text-primary animate-spin" />
-            <p className="text-slate-400 text-sm">Fetching and mining data models...</p>
+          <div className="flex-1 flex flex-col justify-center items-center py-20">
+            <DashboardLoader />
           </div>
         )}
 
